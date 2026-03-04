@@ -140,6 +140,210 @@ In 2005, Apple introduced podcasting support in iTunes and iPod devices. "Enhanc
 
 ---
 
+## Comparative Case Study: Hunter S. Thompson as Pre-Podcast Multi-Platform Mythology
+
+### Why Thompson Matters for This Assignment
+
+**Hunter S. Thompson (1937-2005)** provides essential contrast to Chris Hayes:
+- **Same profession**: Journalist (Rolling Stone, primarily)
+- **Same personality-driven approach**: Voice and persona central to work
+- **Different era**: Thompson's peak (1960s-1980s) **precedes podcasting entirely**
+- **Different platform logic**: Multi-platform presence WITHOUT digital/streaming media
+
+**The comparison reveals:**
+- How journalist personas worked BEFORE podcasting (print + film + illustration)
+- How mythology can overtake person ("Duke" vs. Thompson)
+- How visual identity (Ralph Steadman illustrations) preceded podcast branding
+- What changes when you CAN use literal voice (Hayes) vs. must construct voice textually (Thompson)
+
+---
+
+### Thompson's Multi-Platform Presence (Pre-Podcast Era)
+
+**PRIMARY: Print Journalism (1960s-2005)**
+- Rolling Stone magazine (politics, culture, sports)
+- Books: *Hell's Angels* (1967), *Fear and Loathing in Las Vegas* (1971), *Fear and Loathing on the Campaign Trail '72* (1973), *The Rum Diary* (1998)
+- Gonzo journalism: Immersive, first-person, participatory, breaking objectivity norms
+- **Voice construction through text**: Readers "hear" Thompson's voice on page (profanity, rhythm, mania)
+
+**SECONDARY: Film Adaptations (Mythology Amplified)**
+- *Where the Buffalo Roam* (1980) - Bill Murray as Thompson
+- *Fear and Loathing in Las Vegas* (1998) - Johnny Depp as "Raoul Duke"
+- *The Rum Diary* (2011) - Johnny Depp as young Thompson
+- **Documentaries**:
+  - *Omnibus: Fear and Loathing on the Road to Hollywood* (BBC One, November 2, 1978) - [Available on YouTube](https://youtu.be/Qmc2wt_IxFU)
+  - *Breakfast with Hunter* (2003)
+  - *Gonzo: The Life and Work of Dr. Hunter S. Thompson* (2008)
+
+**Key insight**: Film amplifies mythology but Thompson has NO CONTROL over representation (actors play him/Duke, directors interpret)
+
+**TERTIARY: Visual Identity (Ralph Steadman Illustrations)**
+- **Steadman's drawings** = Thompson's visual brand (1970s onward)
+- Grotesque, anarchic, drug-fueled aesthetic
+- Illustrations accompany Thompson's text in Rolling Stone
+- **This precedes podcast illustration branding** (like Chris Hayes's illustrated podcast avatar)
+- Visual persona constructed collaboratively (Thompson writes, Steadman draws)
+
+**QUATERNARY: Public Appearances/Lectures**
+- Speaking tours, university lectures, public readings
+- Embodied presence (like Hayes's live events)
+- BUT: No recording/distribution infrastructure (pre-digital)
+- Ephemeral—only those physically present experience
+
+---
+
+### The Duke/Thompson Split: Mythology Overtaking Person
+
+**From 1978 BBC documentary** (*Omnibus: Fear and Loathing on the Road to Hollywood*):
+
+**Thompson's own analysis of his mythology problem**:
+
+> "Well there certainly has, I mean you have been putting it on me all week…I'm not sure at all what you think you are shooting…I have no idea whether you think you are making a film about Duke or Thompson. **That's a serious point, I'm never sure which one people expect me to be and very often they conflict**, most often as a matter of fact with people I don't know, **I'm expected to be Duke more than Thompson**…I've been using Duke for 10 years, maybe more, I began to use him originally as a vehicle for quotations that nobody else would say, that was me really talking, those were my quotes…**I'm really in the way as a person, the myth has taken over…I'm no longer necessary, I'm in the way. It would be much better if I die. Then people could take the myth and make films.**"
+
+**What this reveals about persona vs. person:**
+
+**"Raoul Duke"** (Thompson's alter ego in *Fear and Loathing*):
+- Originally = literary device ("vehicle for quotations")
+- Allowed Thompson to say things "Thompson the journalist" couldn't
+- Plausible deniability (it's Duke talking, not me)
+
+**But mythology escaped control:**
+- Audiences expected Thompson to BE Duke in real life
+- Film adaptations (actors playing Duke) further separated person from myth
+- Thompson felt "in the way" of his own mythology
+- **"It would be much better if I die"** = myth no longer needs living person
+
+**This is OPPOSITE of Hayes's relationship to persona:**
+- Hayes controls all platforms (TV show, podcast, book, live events)
+- No alter ego—Hayes is always Hayes
+- Platforms allow Hayes to modulate (TV Hayes, Podcast Hayes) but same person
+- Mythology doesn't overtake—Hayes actively manages brand
+
+---
+
+### Pre-Podcast Constraints on Thompson's Voice
+
+**Thompson's challenge: Construct vocal persona WITHOUT literal voice**
+
+**What Thompson had:**
+- Text (print articles, books)
+- Visual identity (Steadman illustrations)
+- Film representations (actors performing Thompson/Duke)
+- Occasional recordings (lectures, interviews—rare, not distributed)
+
+**What Thompson DIDN'T have:**
+- Podcast (direct voice-to-audience, unmediated)
+- YouTube (video self-representation)
+- Social media (ongoing voice presence)
+- Streaming (persistent, on-demand access)
+
+**Result**: Thompson's "voice" = textual construction
+- Rhythm, profanity, mania conveyed through writing style
+- Readers imagine Thompson's voice (but never hear it consistently)
+- Film actors PERFORM voice (Murray, Depp—but not Thompson's actual voice)
+- Visual persona (Steadman) stronger than vocal persona (no podcast to anchor it)
+
+**Contrast to Hayes**:
+- Hayes's voice literally present (podcast, TV)
+- Visual persona secondary (you see Hayes on TV, but voice on podcast is primary)
+- No actors interpreting Hayes—Hayes represents Hayes across all platforms
+- Mythology contained by literal presence (hard for myth to escape when you're on TV 5 nights/week)
+
+---
+
+### Ralph Steadman's Visual Branding vs. Podcast Illustration
+
+**Steadman's role for Thompson:**
+- Illustrator for Rolling Stone (1970s-2000s)
+- Created visual identity: Grotesque, chaotic, drug-addled aesthetic
+- Illustrations inseparable from Thompson's text
+- **Branding through collaboration** (Thompson writes, Steadman draws)
+
+**This precedes modern podcast illustration:**
+- Chris Hayes's "Why Is This Happening?" uses illustrated avatar (not photo)
+- Podcasts often use illustrated hosts (stylized, branded, consistent)
+- Illustration = visual shorthand for voice (you "see" the voice)
+
+**But key difference:**
+- Steadman's drawings = Thompson's world (gonzo reality, hallucinations, chaos)
+- Hayes's illustration = Hayes himself (simplified, recognizable, professional)
+- Steadman interpreted Thompson; podcast illustrations represent host
+
+**Why this matters**:
+- Pre-podcast: Visual identity could diverge from person (Steadman's grotesque Thompson ≠ actual Thompson)
+- Podcast era: Visual identity tightly controlled by host (Hayes approves his illustration)
+- Thompson's mythology partly escaped because visual (Steadman) + textual (gonzo style) exceeded person
+- Hayes's brand stays contained because he controls voice (podcast) + image (TV) + text (book) simultaneously
+
+---
+
+### Thompson vs. Hayes: Comparative Platform Analysis
+
+| Dimension | Hunter S. Thompson (Pre-Podcast) | Chris Hayes (Podcast Era) |
+|-----------|----------------------------------|---------------------------|
+| **Primary Platform** | Print journalism (Rolling Stone, books) | Cable TV (MSNBC, 5 nights/week) |
+| **Voice Presence** | Textual construction (readers imagine voice) | Literal voice (TV, podcast, audiobook) |
+| **Visual Identity** | Ralph Steadman illustrations (collaborative, grotesque) | Professional photo + illustrated podcast avatar (controlled) |
+| **Persona Strategy** | Alter ego "Duke" (plausible deniability) | No alter ego (always Hayes, modulates across platforms) |
+| **Mythology Risk** | Myth overtook person ("Duke" > Thompson) | Myth contained (Hayes controls all platforms) |
+| **Film Representation** | Actors play Thompson/Duke (Murray, Depp—out of Thompson's control) | N/A (Hayes represents Hayes) |
+| **Platform Control** | LOW (print editors, film directors, actor interpretations) | HIGH (hosts own show, owns podcast, writes own book) |
+| **Audience Relationship** | Mediated (through editors, publishers, actors) | Direct (podcast = unmediated voice, live events = physical presence) |
+| **Temporal Logic** | Ephemeral (articles archived, lectures forgotten) | Persistent (podcast episodes on-demand forever, TV clips on YouTube) |
+| **Era** | Pre-digital, pre-streaming, pre-social media | Post-platform, post-algorithm, streaming native |
+
+---
+
+### Assignment Integration: Thompson as Comparative Case
+
+**Students should use Thompson comparison to understand:**
+
+**1. What podcasting changed:**
+- Thompson had to construct voice textually (gonzo style)
+- Hayes can use literal voice (podcast = direct vocal presence)
+- Thompson's mythology escaped (Duke > Thompson)
+- Hayes's mythology contained (Hayes controls Hayes across platforms)
+
+**2. What visual branding meant before podcasts:**
+- Steadman's grotesque illustrations = Thompson's visual brand
+- Preceded podcast illustration trend (Hayes's illustrated avatar)
+- But Steadman interpreted Thompson (collaborative, divergent)
+- Hayes controls his illustration (directive, consistent)
+
+**3. How multi-platform worked before digital:**
+- Thompson: Print → Film → Lectures (each platform out of his control)
+- Hayes: TV → Podcast → Book → Live Events (Hayes owns/controls each)
+- Thompson's platform presence = fragmented, mediated
+- Hayes's platform presence = integrated, direct
+
+**4. Why mythology/persona split matters:**
+- Thompson: "Duke" became more real than Thompson (actors play Duke, not Thompson)
+- Hayes: No alter ego, so mythology can't escape person
+- Thompson felt "in the way" of his own myth
+- Hayes IS the myth (no separation possible when you're on TV 5 nights/week)
+
+---
+
+### Preview: Stack 2 Comparative Case Studies
+
+**Note for students:** This Thompson/Hayes comparison is **first in series of journalist-to-media-creator case studies** across the microcredential program:
+
+**MC1 (Stack 1):** Hunter S. Thompson (print journalist → mythology) vs. Chris Hayes (TV journalist → multi-platform)
+
+**MC4-MC6 (Stack 2 - coming):** Cameron Crowe (Rolling Stone journalist → filmmaker) vs. Adam Curtis (BBC filmmaker → archival essayist)
+
+**What these comparisons reveal:**
+- How journalists transition from print → other media
+- How personas adapt (or fail to adapt) across platforms
+- How control over representation changes with platform evolution
+- How pre-digital vs. digital eras shape mythology formation
+
+**Thompson (1960s-2000s)**: Print era, mythology escapes, visual branding collaborative  
+**Hayes (2010s-2020s)**: Platform era, mythology contained, multi-platform integrated  
+**Crowe vs. Curtis (Stack 2)**: Film era, archival strategies, different institutional relationships
+
+---
+
 ## Assignment Part A: Platform Persona Analysis
 
 ### Deliverable: Platform Persona Matrix (3-4 pages)
@@ -750,8 +954,15 @@ Students understand their audio essay as **YOU® brand artifact** that could be 
 **Q: "Do I have to watch/listen to all four Hayes platforms?"**  
 A: Minimum two (TV + podcast recommended), but analyzing all four makes for richer analysis.
 
-**Q: "Can I analyze a different podcaster instead of Hayes?"**  
-A: Yes, but must be someone with multi-platform presence (TV/podcast/book/social). Get instructor approval. Examples: Ezra Klein, Hasan Piker, Joe Rogan.
+**Q: "Can I analyze Hunter S. Thompson instead of (or in addition to) Hayes?"**  
+A: Yes! Thompson provides pre-podcast contrast. You can:
+- Analyze Thompson OR Hayes (choose one)
+- Analyze both comparatively (stronger analysis, more work)
+- Focus on Thompson's Duke/Thompson mythology split (1978 BBC documentary essential viewing)
+If choosing Thompson, you must analyze: Print (Rolling Stone articles, books) + ONE film adaptation + Steadman visual identity + documentary footage.
+
+**Q: "Can I analyze a different podcaster instead of Hayes or Thompson?"**  
+A: Yes, but must be someone with multi-platform presence (TV/podcast/book/social). Get instructor approval. Examples: Ezra Klein, Hasan Piker, Joe Rogan. Note: Thompson/Hayes chosen specifically for journalism background and era contrast.
 
 **Q: "I don't have an iPod from 2005. How do I experience enhanced podcast?"**  
 A: Use Internet Archive examples, read documentation, watch YouTube demos of enhanced podcast features. You're analyzing historically, not replicating experience exactly.

@@ -13,15 +13,128 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "certificate-program/stack-1-cultural-processes/MC1/MC1_YOU_Audio_Essay_UPDATED.md",
+                "file": "certificate-program/stack-3-shared-values/MC7/MC7-ai-augmented-systems-design v2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MC1_YOU_Audio_Essay_UPDATED"
+              "title": "MC7-ai-augmented-systems-design v2"
+            }
+          },
+          {
+            "id": "beba3310f2b5fcd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "certificate-program/stack-3-shared-values/MC8/MC8-ip-licensing-strategy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MC8-ip-licensing-strategy"
+            }
+          },
+          {
+            "id": "ca5f3e3d1c6fec49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PROJECT-SUMMARY.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PROJECT-SUMMARY"
+            }
+          },
+          {
+            "id": "1af21b16531eb8f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "certificate-program/stack-3-shared-values/Stack 3 — Shared Values (RPV as Orchestrated Ecosystem).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stack 3 — Shared Values (RPV as Orchestrated Ecosystem)"
+            }
+          },
+          {
+            "id": "b3b40858dbbb0d2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "certificate-program/stack-2-institutional-resources/Stack 2 — Institutional & Organizational Resources.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stack 2 — Institutional & Organizational Resources"
+            }
+          },
+          {
+            "id": "267263acadeb1b2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "certificate-program/stack-1-cultural-processes/MC1/Stack 1 — Cultural Processes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stack 1 — Cultural Processes"
+            }
+          },
+          {
+            "id": "6bb478564ca2fae2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "3a26b3bf0649c7c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "e92a7ae87c5e0529",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "certificate-program/stack-1-cultural-processes/MC1/MC1_Syllabus YOU brand audio essay.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MC1_Syllabus YOU brand audio essay"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -78,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 440.5
   },
   "right": {
     "id": "494a0688b0a53b45",
@@ -94,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "certificate-program/stack-1-cultural-processes/MC1/MC1_YOU_Audio_Essay_UPDATED.md",
+                "file": "PROJECT-SUMMARY_v0.3.0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +217,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MC1_YOU_Audio_Essay_UPDATED"
+              "title": "Backlinks for PROJECT-SUMMARY_v0.3.0"
             }
           },
           {
@@ -113,12 +226,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "certificate-program/stack-1-cultural-processes/MC1/MC1_YOU_Audio_Essay_UPDATED.md",
+                "file": "PROJECT-SUMMARY_v0.3.0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from MC1_YOU_Audio_Essay_UPDATED"
+              "title": "Outgoing links from PROJECT-SUMMARY_v0.3.0"
             }
           },
           {
@@ -156,13 +269,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "certificate-program/stack-1-cultural-processes/MC1/MC1_YOU_Audio_Essay_UPDATED.md",
+                "file": "PROJECT-SUMMARY_v0.3.0.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MC1_YOU_Audio_Essay_UPDATED"
+              "title": "Outline of PROJECT-SUMMARY_v0.3.0"
             }
           }
         ]
@@ -183,17 +296,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "07aba2c89f56a06c",
+  "active": "0b49467c89922c12",
   "lastOpenFiles": [
+    "certificate-program/stack-1-cultural-processes/Stack 1 — Cultural Processes.md",
+    "Advanced Design Certificate — Strategyzer Integration Overview.md",
+    "Untitled.md",
+    "certificate-program/stack-3-shared-values/MC9/MC9 — Community and Client Development.md",
+    "certificate-program/stack-3-shared-values/MC7/MC7 — AI-Augmented Design Studio Orchestration.md",
+    "certificate-program/Advanced Design Orchestration Certificate.md",
+    "PROJECT-SUMMARY_v0.3.0.md",
+    "PROJECT-SUMMARY.md",
+    "certificate-program/stack-1-cultural-processes/MC1/Stack 1 — Cultural Processes.md",
+    "certificate-program/stack-2-institutional-resources/Stack 2 — Institutional & Organizational Resources.md",
+    "certificate-program/stack-3-shared-values/Stack 3 — Shared Values (RPV as Orchestrated Ecosystem).md",
+    "3 stack summaries",
+    "certificate-program/stack-3-shared-values/MC8/MC8-ip-licensing-strategy.md",
+    "certificate-program/stack-3-shared-values/MC8/MC8 — Licensing Architecture, Innovation, and Trust Calibration.md",
+    "certificate-program/stack-3-shared-values/MC7/MC7-ai-augmented-systems-design v2.md",
+    "certificate-program/stack-3-shared-values/MC7/MC7-ai-augmented-design-practice v1.md",
+    "certificate-program/stack-2-institutional-resources/MC6/MC6-Systems Mapping and Change Laboratory.md",
+    "certificate-program/stack-3-shared-values/MC9",
+    "certificate-program/stack-3-shared-values/MC8",
+    "certificate-program/stack-2-institutional-resources/MC5/MC5-communities-of-practice.md",
+    "certificate-program/stack-2-institutional-resources/MC4/MC4-Syllabus archival-interpretation-remix.md",
+    "certificate-program/stack-1-cultural-processes/MC1/MC1_Syllabus YOU brand audio essay.md",
     "certificate-program/stack-1-cultural-processes/MC1/MC1_Assignment_Chris_Hayes_Podcast_Analysis.md",
-    "certificate-program/stack-1-cultural-processes/MC1/MC1-production-literacy.md",
-    "certificate-program/stack-1-cultural-processes/MC1/MC1_YOU_Audio_Essay_UPDATED.md",
-    "certificate-program/stack-1-cultural-processes/MC1",
-    "certificate-program/stack-2-institutional-resources/MC4-archival-interpretation-remix.md",
-    "certificate-program/stack-1-cultural-processes/MC3-platform-ecosystem-economics.md",
-    "certificate-program/stack-1-cultural-processes/MC2-experience-design-awareness.md",
-    "certificate-program/stack-1-cultural-processes/MICROCRED_3_SYLLABUS.md",
-    "certificate-program/stack-1-cultural-processes/MICROCRED_2_SYLLABUS.md",
-    "certificate-program/stack-1-cultural-processes/MICROCRED_1_SYLLABUS.md"
+    "certificate-program/stack-1-cultural-processes/MC1/MC1_Assignment_Chris_Hayes_Podcast_Analysis.md",
+    "certificate-program/stack-2-institutional-resources/MC6",
+    "certificate-program/stack-2-institutional-resources/MC5",
+    "certificate-program/stack-1-cultural-processes/MC1/MC1-Assignment-Changes-for-MC3-Integration.md",
+    "certificate-program/stack-2-institutional-resources/MC4",
+    "index.html",
+    "Misc documents/MML-Partnership-Proposal-MC2.md",
+    "certificate-program/stack-1-cultural-processes/MC3/MC3-Syllabus-Cultural-Product-Tour-Strategy.md",
+    "certificate-program/stack-1-cultural-processes/MC3",
+    "certificate-program/stack-3-shared-values/MC7-ai-augmented-systems-design v2.md",
+    "certificate-program/stack-3-shared-values/MC7-ai-augmented-systems-design.md",
+    "certificate-program/stack-3-shared-values/MC7",
+    "certificate-program/stack-3-shared-values/untitled folder"
   ]
 }

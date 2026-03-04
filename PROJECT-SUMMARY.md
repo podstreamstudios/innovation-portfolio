@@ -63,6 +63,7 @@ This is a **nine-microcredential (MC) certificate program** — an educational c
 - **Strategyzer tools** — Business Model Canvas, Value Proposition Canvas
 - **Claude Skills** — AI infrastructure for workflow design and practice augmentation
 
+
 ## Current State (v0.2.0)
 
 Stack 1 is complete. The main development frontier is Stack 2 (institutional resources) and finishing Stack 3 (shared values).
