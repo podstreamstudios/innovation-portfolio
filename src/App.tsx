@@ -15,7 +15,7 @@ export function App() {
   }, [pathname]);
 
   return (
-    <>
+    <div className="w-full overflow-x-hidden">
       <SiteNav />
       <Routes>
         <Route path="/" element={<Navigate to="/overview" replace />} />
@@ -27,6 +27,6 @@ export function App() {
         <Route path="/outputs" element={<Outputs />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
