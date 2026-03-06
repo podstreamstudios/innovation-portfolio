@@ -819,10 +819,10 @@
   @media (max-width: 900px) {
     .header-inner { padding: 56px 24px 48px; }
     section { padding: 64px 24px; }
-    nav div { display: none; }
-    .site-nav .site-nav-inner { display: none; }
     nav { position: relative; min-height: 50px; }
+    nav div { display: none; }
     .site-nav { position: relative; min-height: 50px; }
+    .site-nav .site-nav-inner { display: none; }
     .mobile-menu-toggle { display: flex; }
     .mobile-nav { display: flex; }
     .origin-grid, .playlist-grid { grid-template-columns: 1fr; gap: 40px; }
