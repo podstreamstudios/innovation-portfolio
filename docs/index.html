@@ -3,446 +3,942 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ARIES Certificate — Innovation System Orchestration for the Creative Industries</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&family=Archivo:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<title>Advanced Design Certificate in AI-Augmented Cultural Systems &amp; Experiences</title>
+<style>
+  :root {
+    --color-bg: #faf9f7;
+    --color-surface: #ffffff;
+    --color-text: #2c2c2c;
+    --color-text-muted: #5a5a5a;
+    --color-text-light: #7a7a7a;
+    --color-border: #e0ddd8;
+    --color-border-light: #eceae6;
+    --color-accent: #3d5a80;
+    --color-accent-light: #e8eef4;
+    --color-stack1: #6b705c;
+    --color-stack1-light: #f0f1ec;
+    --color-stack2: #7f5539;
+    --color-stack2-light: #f5efe9;
+    --color-stack3: #3d5a80;
+    --color-stack3-light: #e8eef4;
+    --color-developed: #588157;
+    --color-in-dev: #bc6c25;
+    --color-outline: #7a7a7a;
+    --font-heading: 'Georgia', 'Times New Roman', serif;
+    --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', Menlo, Consolas, monospace;
+    --max-width: 960px;
+    --radius: 6px;
+  }
 
-<link rel="stylesheet" href="css/styles.css">
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+  body {
+    font-family: var(--font-body);
+    color: var(--color-text);
+    background: var(--color-bg);
+    line-height: 1.65;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #2c3e50 0%, #3d5a80 100%);
+    color: #fff;
+    padding: 64px 0 56px;
+    text-align: center;
+  }
+
+  .site-header h1 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 12px;
+    letter-spacing: -0.01em;
+  }
+
+  .site-header .subtitle {
+    font-size: 1.05rem;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .header-meta {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+    opacity: 0.75;
+  }
+
+  .header-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+  }
+
+  /* Sections */
+  section {
+    padding: 48px 0;
+  }
+
+  section + section {
+    border-top: 1px solid var(--color-border-light);
+  }
+
+  .section-label {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+
+  h2 {
+    font-family: var(--font-heading);
+    font-size: 1.55rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--color-text);
+    letter-spacing: -0.01em;
+  }
+
+  h3 {
+    font-family: var(--font-heading);
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: var(--color-text);
+  }
+
+  p {
+    margin-bottom: 16px;
+    color: var(--color-text-muted);
+  }
+
+  p:last-child { margin-bottom: 0; }
+
+  /* Overview */
+  .overview-text {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    max-width: 720px;
+  }
+
+  .pitch-statement {
+    background: var(--color-surface);
+    border-left: 3px solid var(--color-accent);
+    padding: 20px 24px;
+    margin: 24px 0;
+    border-radius: 0 var(--radius) var(--radius) 0;
+    font-style: italic;
+    color: var(--color-text-muted);
+    line-height: 1.7;
+  }
+
+  /* Architecture Diagram */
+  .architecture-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 24px;
+  }
+
+  .stack-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 24px;
+    text-align: center;
+    position: relative;
+  }
+
+  .stack-card--thesis { border-top: 3px solid var(--color-stack1); }
+  .stack-card--antithesis { border-top: 3px solid var(--color-stack2); }
+  .stack-card--synthesis { border-top: 3px solid var(--color-stack3); }
+
+  .stack-role {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+
+  .stack-card--thesis .stack-role { color: var(--color-stack1); }
+  .stack-card--antithesis .stack-role { color: var(--color-stack2); }
+  .stack-card--synthesis .stack-role { color: var(--color-stack3); }
+
+  .stack-card h3 {
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
+
+  .stack-card .stack-subtitle {
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    margin-bottom: 14px;
+  }
+
+  .stack-card .mc-list {
+    list-style: none;
+    font-size: 0.85rem;
+    text-align: left;
+  }
+
+  .stack-card .mc-list li {
+    padding: 6px 0;
+    border-top: 1px solid var(--color-border-light);
+    color: var(--color-text-muted);
+  }
+
+  .stack-card .mc-list li span {
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .stack-readiness {
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid var(--color-border-light);
+    font-size: 0.78rem;
+    color: var(--color-text-light);
+  }
+
+  /* Arrow connectors */
+  .architecture-flow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 16px 0 8px;
+    color: var(--color-text-light);
+    font-size: 0.82rem;
+  }
+
+  .architecture-flow .arrow {
+    font-size: 1.2rem;
+    color: var(--color-border);
+  }
+
+  /* MC Cards */
+  .stack-section {
+    margin-top: 32px;
+  }
+
+  .stack-heading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--color-border-light);
+  }
+
+  .stack-heading .stack-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .stack-heading--1 .stack-dot { background: var(--color-stack1); }
+  .stack-heading--2 .stack-dot { background: var(--color-stack2); }
+  .stack-heading--3 .stack-dot { background: var(--color-stack3); }
+
+  .stack-heading h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+
+  .stack-heading .stack-label {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-light);
+    margin-left: auto;
+  }
+
+  .mc-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .mc-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 24px;
+    transition: box-shadow 0.15s ease;
+  }
+
+  .mc-card:hover {
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+
+  .mc-card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+
+  .mc-number {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .mc-number--s1 { background: var(--color-stack1-light); color: var(--color-stack1); }
+  .mc-number--s2 { background: var(--color-stack2-light); color: var(--color-stack2); }
+  .mc-number--s3 { background: var(--color-stack3-light); color: var(--color-stack3); }
+
+  .mc-card-title-block { flex: 1; }
+
+  .mc-card-title-block h4 {
+    font-family: var(--font-heading);
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+
+  .mc-card-title-block .mc-short-title {
+    font-size: 0.82rem;
+    color: var(--color-text-light);
+    font-style: italic;
+  }
+
+  .status-badge {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 3px 10px;
+    border-radius: 12px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 3px;
+  }
+
+  .status-badge--developed { background: #e8f5e9; color: var(--color-developed); }
+  .status-badge--in-dev { background: #fff3e0; color: var(--color-in-dev); }
+  .status-badge--outline { background: #f0f0f0; color: var(--color-outline); }
+
+  .mc-card-body {
+    margin-bottom: 16px;
+    font-size: 0.92rem;
+  }
+
+  .mc-card-body p {
+    font-size: 0.92rem;
+  }
+
+  .mc-topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 16px;
+  }
+
+  .mc-topic-tag {
+    font-size: 0.75rem;
+    padding: 3px 10px;
+    border-radius: 12px;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border-light);
+    color: var(--color-text-muted);
+  }
+
+  .mc-card-meta {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    color: var(--color-text-light);
+    padding-top: 14px;
+    border-top: 1px solid var(--color-border-light);
+  }
+
+  .mc-card-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .meta-label {
+    font-weight: 600;
+    color: var(--color-text-muted);
+  }
+
+  /* Tables */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    margin-top: 16px;
+    background: var(--color-surface);
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+  }
+
+  .data-table th {
+    text-align: left;
+    font-weight: 600;
+    padding: 12px 16px;
+    background: var(--color-bg);
+    border-bottom: 2px solid var(--color-border);
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--color-text-muted);
+  }
+
+  .data-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--color-border-light);
+    color: var(--color-text-muted);
+  }
+
+  .data-table tr:last-child td { border-bottom: none; }
+
+  .data-table .status-cell {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  /* Frameworks */
+  .framework-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 20px;
+  }
+
+  .framework-item {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 20px;
+  }
+
+  .framework-item h4 {
+    font-family: var(--font-heading);
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .framework-item p {
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+
+  /* Footer */
+  .site-footer {
+    background: #2c3e50;
+    color: rgba(255,255,255,0.6);
+    padding: 32px 0;
+    font-size: 0.82rem;
+    text-align: center;
+  }
+
+  .site-footer .footer-line {
+    margin-bottom: 4px;
+  }
+
+  .site-footer strong {
+    color: rgba(255,255,255,0.85);
+    font-weight: 600;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .site-header { padding: 48px 0 40px; }
+    .site-header h1 { font-size: 1.55rem; }
+    .architecture-grid { grid-template-columns: 1fr; }
+    .framework-grid { grid-template-columns: 1fr; }
+    section { padding: 36px 0; }
+    h2 { font-size: 1.35rem; }
+    .mc-card-header { flex-wrap: wrap; }
+    .mc-card-meta { flex-direction: column; gap: 8px; }
+    .header-meta { flex-direction: column; gap: 8px; }
+  }
+</style>
 </head>
 <body>
 
-<!-- ── HEADER ── -->
-<header>
-  <div class="header-inner">
-    <p class="header-eyebrow">ARIES Certificate in Innovation System Orchestration for the Creative Industries</p>
-    <div class="header-acronym">
-      <span class="acronym-letter">A</span><span class="acronym-letter">R</span><span class="acronym-letter">I</span><span class="acronym-letter">E</span><span class="acronym-letter">S</span>
-    </div>
-    <p class="header-title">Autopoietic Remix for Intertextual and Experiential Systems</p>
-    <p class="header-description">A nine-module professional certificate in cultural production, institutional analysis, and ecosystem governance — designed for creative industries practitioners who need to understand what they are inside of... and what's inside of them.</p>
-  </div>
-  <div class="stack-band">
-    <div class="stack-cell">
-      <div class="stack-cell-label p">Stack 1 · MC1–MC3</div>
-      <div class="stack-cell-name">Processes Certificate</div>
-    </div>
-    <div class="stack-cell">
-      <div class="stack-cell-label r">Stack 2 · MC4–MC6</div>
-      <div class="stack-cell-name">Resources Certificate</div>
-    </div>
-    <div class="stack-cell">
-      <div class="stack-cell-label v">Stack 3 · MC7–MC9</div>
-      <div class="stack-cell-name">Values Certificate</div>
+<!-- Header -->
+<header class="site-header">
+  <div class="container">
+    <h1>Advanced Design Certificate in<br>AI-Augmented Cultural Systems &amp; Experiences</h1>
+    <p class="subtitle">Multimodal Media Lab</p>
+    <div class="header-meta">
+      <span class="badge">In Development</span>
+      <span>Version 0.2.0</span>
+      <span>9 Microcredentials &middot; 3 Stacks</span>
     </div>
   </div>
-  <div class="header-bg-text">ARIES</div>
 </header>
 
-<!-- ── SITE NAV ── -->
-<nav style="background:var(--ink); position:sticky; top:0; z-index:200;">
-  <div style="max-width:1200px; margin:0 auto; padding:0 48px; display:flex; align-items:stretch;">
-    <a href="index.html" class="home-link" style="font-family:var(--serif); font-size:18px; font-weight:600; color:var(--parchment); text-decoration:none; padding:16px 24px 16px 0; margin-right:16px; letter-spacing:0.04em; border-right:1px solid #1e1c18; display:flex; align-items:center;">ARIES</a>
-    <a href="index.html" style="font-family:var(--mono); font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:var(--processes); text-decoration:none; padding:0 20px; display:flex; align-items:center; border-right:1px solid #1e1c18;">Overview</a>
-    <a href="processes.html" style="font-family:var(--mono); font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:var(--mid); text-decoration:none; padding:0 20px; display:flex; align-items:center; border-right:1px solid #1e1c18; transition:color 0.2s;">Processes</a>
-    <a href="resources.html" style="font-family:var(--mono); font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:var(--mid); text-decoration:none; padding:0 20px; display:flex; align-items:center; border-right:1px solid #1e1c18; transition:color 0.2s;">Resources</a>
-    <a href="values.html" style="font-family:var(--mono); font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:var(--mid); text-decoration:none; padding:0 20px; display:flex; align-items:center; transition:color 0.2s;">Values</a>
-    <a href="workplan.html" style="color:var(--mid); text-decoration:none; font-family:var(--mono); font-size:10px; letter-spacing:0.14em; text-transform:uppercase; padding:0 18px; display:flex; align-items:center; border-left:1px solid #1e1c18;">Work Plan</a>
-    <a href="outputs.html" style="color:var(--mid); text-decoration:none; font-family:var(--mono); font-size:10px; letter-spacing:0.14em; text-transform:uppercase; padding:0 18px; display:flex; align-items:center; border-left:1px solid #1e1c18;">Outputs</a>
-  </div>
-  <button class="mobile-menu-toggle" aria-label="Toggle menu">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-  <div class="mobile-nav">
-    <a href="index.html">Overview</a>
-    <a href="processes.html">Processes</a>
-    <a href="resources.html">Resources</a>
-    <a href="values.html">Values</a>
-    <a href="workplan.html">Work Plan</a>
-    <a href="outputs.html">Outputs</a>
-  </div>
-</nav>
-
-<!-- ── PAGE NAV ── -->
-<nav>
-  <div class="nav-inner">
-    <a href="#origin" class="nav-link">Origin</a>
-    <a href="#stacks" class="nav-link">Three Stacks</a>
-    <a href="#spine" class="nav-link">Theoretical Spine</a>
-    <a href="#playlist" class="nav-link">Playlist Logic</a>
-    <a href="#contributions" class="nav-link">Contributions</a>
-    <a href="#pathway" class="nav-link">Pathway</a>
-    <a href="#certifies" class="nav-link">What It Certifies</a>
-  </div>
-</nav>
-
-<!-- ── ORIGIN ── -->
-<section id="origin">
-  <div class="section-label">Origin &amp; Intellectual History</div>
-  <h2>A program built from <em>inside</em> the problem it studies</h2>
-  <p class="lead">The ARIES certificate rebuilds the architecture of IAT 203: Cultural Icons and Popular Art (SFU, 2002–2006) at professional certificate register — adding theoretical depth, jurisdictional literacy, and industry case analysis.</p>
-
-  <div class="origin-grid reveal">
-    <div>
-      <p>Teaching IAT 203 produced a 2006 MASc thesis: <em>Travels in Intertextuality: The Autopoietic Identity of Remix Culture</em> (Flynn, 2006). The thesis extended Walter Benjamin's two-lens exhibition value / cult value dialectic into a three-lens system — adding the economic and governance lens that Benjamin's framework needed but never fully articulated.</p>
-      <p>That third lens - exchange value - is the layer that determines the reach of the exhibition value's network effects, whose cult value gets protected, and who controls the conditions under which the first two layers operate. The ARIES name and methodology encodes this three-lens structure into a series of stacked microcredentials that are framed in terms of Clayton Christensen's RPV theory — not just as John Berger's ways of seeing, but in seeing what's next (<em>Seeing What's Next</em>, Christensen, Anthony &amp; Roth, 2004). The certificate is what that theoretical statement has become when extended to its full institutional and ecosystem complexity.</p>
-      <p>The certificate exists in two registers simultaneously: it is a professional credential in the creative industries, and it is a reflexive theoretical instrument that applies to itself the same analytical standards it teaches, i.e. Benjamin's test — is what you have designed theoretically "the aestheticization of politics"? Or is it "the politicization of art"?</p>
-
-      <div style="position:relative; width:100%; padding-bottom:56.25%; margin-top:32px;">
-        <iframe
-          src="https://www.youtube.com/embed/cfmDs3Xs1Uo"
-          title="ARIES Certificate"
-          style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-        </iframe>
-      </div>
+<!-- Program Overview -->
+<section id="overview">
+  <div class="container">
+    <p class="section-label">Program Overview</p>
+    <h2>A Dialectical Approach to Cultural Systems Education</h2>
+    <div class="overview-text">
+      <p>This certificate program traces a Hegelian dialectical arc across three stacks of microcredentials. Students begin with local cultural production (thesis), encounter institutional and platform-scale tensions (antithesis), and resolve these through AI-augmented systems design and a live capstone intervention (synthesis).</p>
+      <p>The program is designed to be <strong>additive, not competitive</strong> with existing degree programs&mdash;it feeds senior undergraduate and graduate courses by formalizing competencies that are typically assumed but never formally taught.</p>
     </div>
-    <div>
-      <blockquote class="origin-quote">
-        "The teaching of IAT 203 produced both a methodology and a question: how do you design a cultural system that can sustain value without aestheticizing the cause it claims to serve?"
-        <cite>— Joel Flynn, March 2026</cite>
-      </blockquote>
+    <blockquote class="pitch-statement">
+      Completion certifies foundational literacy in cultural production, institutional mediation, platform and workflow economics, multimodal experience design, and AI-augmented systems design&mdash;competencies typically assumed but not formally taught in senior undergraduate and graduate courses in arts, culture, creative industries, and design entrepreneurship.
+    </blockquote>
+  </div>
+</section>
 
-      <div class="acronym-breakdown" style="margin-top: 40px;">
-        <div class="acronym-row">
-          <div class="acronym-row-letter">A</div>
-          <div class="acronym-row-content">
-            <div class="acronym-row-term">Autopoietic</div>
-            <p class="acronym-row-desc">The tertiary/governance layer. The permission architecture that determines the conditions under which the system reproduces itself through its own internal operations.</p>
-          </div>
-        </div>
-        <div class="acronym-row">
-          <div class="acronym-row-letter">R</div>
-          <div class="acronym-row-content">
-            <div class="acronym-row-term">Remix</div>
-            <p class="acronym-row-desc">The primary layer. Working with cultural material as raw resource — recombining existing artifacts into new configurations. The practitioner's relationship to the material world of existing culture.</p>
-          </div>
-        </div>
-        <div class="acronym-row">
-          <div class="acronym-row-letter">I</div>
-          <div class="acronym-row-content">
-            <div class="acronym-row-term">Intertextual</div>
-            <p class="acronym-row-desc">The secondary layer. The cultural meaning-context within which remixing occurs — the web of existing references that gives remixing its cultural significance beyond mere novelty.</p>
-          </div>
-        </div>
-        <div class="acronym-row">
-          <div class="acronym-row-letter">E</div>
-          <div class="acronym-row-content">
-            <div class="acronym-row-term">Experiential</div>
-            <p class="acronym-row-desc">Spanning primary and secondary layers. The ecological dimension of humans interacting with people, places, and things — naming the designable gap between digital representation and embodied encounter.</p>
-          </div>
-        </div>
-        <div class="acronym-row">
-          <div class="acronym-row-letter">S</div>
-          <div class="acronym-row-content">
-            <div class="acronym-row-term">Systems</div>
-            <p class="acronym-row-desc">The synthesizing governing logic. A system must be simultaneously viable, feasible, and desirable to achieve autopoietic recursiveness. Systems is the architectural claim that the four preceding terms, properly coordinated, constitute a self-reproducing whole.</p>
-          </div>
-        </div>
+<!-- Program Architecture -->
+<section id="architecture">
+  <div class="container">
+    <p class="section-label">Program Architecture</p>
+    <h2>Three Stacks, One Dialectical Arc</h2>
+    <div class="architecture-flow">
+      Thesis <span class="arrow">&rarr;</span> Antithesis <span class="arrow">&rarr;</span> Synthesis
+    </div>
+    <div class="architecture-grid">
+      <div class="stack-card stack-card--thesis">
+        <p class="stack-role">Thesis</p>
+        <h3>Stack 1: Cultural Processes</h3>
+        <p class="stack-subtitle">Local scale &middot; MC1&ndash;MC3</p>
+        <ul class="mc-list">
+          <li><span>MC1</span> &mdash; Persona, Voice &amp; Cultural Identity</li>
+          <li><span>MC2</span> &mdash; Cultural Systems, Icons &amp; Experiential Design</li>
+          <li><span>MC3</span> &mdash; Cultural Product Tour Strategy</li>
+        </ul>
+        <p class="stack-readiness">Readiness produced: Applied cultural analysis</p>
+      </div>
+      <div class="stack-card stack-card--antithesis">
+        <p class="stack-role">Antithesis</p>
+        <h3>Stack 2: Institutional Resources</h3>
+        <p class="stack-subtitle">Global / institutional scale &middot; MC4&ndash;MC6</p>
+        <ul class="mc-list">
+          <li><span>MC4</span> &mdash; Archival Interpretation &amp; Remix</li>
+          <li><span>MC5</span> &mdash; Communities of Practice</li>
+          <li><span>MC6</span> &mdash; Workflow &amp; Broadcasting Economics</li>
+        </ul>
+        <p class="stack-readiness">Readiness produced: Advanced mediation</p>
+      </div>
+      <div class="stack-card stack-card--synthesis">
+        <p class="stack-role">Synthesis</p>
+        <h3>Stack 3: Shared Values</h3>
+        <p class="stack-subtitle">Operational scale &middot; MC7&ndash;MC9</p>
+        <ul class="mc-list">
+          <li><span>MC7</span> &mdash; AI-Augmented Systems Design</li>
+          <li><span>MC8</span> &mdash; IP &amp; Licensing Strategy</li>
+          <li><span>MC9</span> &mdash; Community &amp; Client Development</li>
+        </ul>
+        <p class="stack-readiness">Readiness produced: AI-augmented practice + live intervention</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── THREE STACKS ── -->
-<section id="stacks">
-  <div class="section-label">Program Architecture</div>
-  <h2>Three stacks. <em>One argument.</em></h2>
-  <p class="lead">The three stacks are not interchangeable. Each builds genuine prerequisite competence before the next begins. The sequence is the design.</p>
+<!-- Microcredentials -->
+<section id="microcredentials">
+  <div class="container">
+    <p class="section-label">Microcredentials</p>
+    <h2>Nine Credentials Across Three Stacks</h2>
 
-  <div class="stacks-grid reveal">
-    <div class="stack-card" style="cursor:pointer;" onclick="location.href='processes.html'">
-      <div class="stack-card-accent p"></div>
-      <div class="stack-card-modules">MC1 – MC3 · Individual</div>
-      <div class="stack-card-name">Processes</div>
-      <div class="stack-card-credential p">Processes Certificate</div>
-      <p class="stack-card-desc">How cultural artifacts are constructed, framed, and set into motion — and what it means to be the practitioner who does that. Builds individual analytical and production capacity before institutional complexity is encountered.</p>
-      <ul class="stack-modules-list">
-        <li><span class="module-code">MC1</span><span class="module-name">Persona, Voice and Cultural Identity</span></li>
-        <li><span class="module-code">MC2</span><span class="module-name">Cultural Systems, Icons and Experiential Design</span></li>
-        <li><span class="module-code">MC3</span><span class="module-name">Cultural Product Circulation and Interaction Design</span></li>
-      </ul>
+    <!-- Stack 1 -->
+    <div class="stack-section">
+      <div class="stack-heading stack-heading--1">
+        <span class="stack-dot"></span>
+        <h3>Stack 1: Cultural Processes</h3>
+        <span class="stack-label">Thesis &middot; Local Scale</span>
+      </div>
+      <div class="mc-cards">
+
+        <!-- MC1 -->
+        <div class="mc-card">
+          <div class="mc-card-header">
+            <span class="mc-number mc-number--s1">MC1</span>
+            <div class="mc-card-title-block">
+              <h4>Production Literacy: Persona, Voice, and Cultural Identity</h4>
+              <span class="mc-short-title">YOU&reg; Audio Essay / Proto-Podcast</span>
+            </div>
+            <span class="status-badge status-badge--developed">Developed</span>
+          </div>
+          <div class="mc-card-body">
+            <p>Students construct identity as a cultural object, using voice as a medium of authority and authenticity. Operating within a pre-2007 "enhanced podcast" frame, the course examines how cultural identity is produced, performed, and mediated&mdash;then contrasts this with contemporary multi-platform persona construction via a Chris Hayes case study.</p>
+          </div>
+          <div class="mc-topics">
+            <span class="mc-topic-tag">Identity as cultural artifact</span>
+            <span class="mc-topic-tag">Voice &amp; performance</span>
+            <span class="mc-topic-tag">Benjamin &amp; Baudrillard</span>
+            <span class="mc-topic-tag">Enhanced podcast history</span>
+            <span class="mc-topic-tag">Multi-platform personas</span>
+            <span class="mc-topic-tag">Nobrow culture</span>
+          </div>
+          <div class="mc-card-meta">
+            <span><span class="meta-label">Credits:</span> 1.5 CEUs</span>
+            <span><span class="meta-label">Format:</span> Individual, self-paced</span>
+            <span><span class="meta-label">Duration:</span> 6&ndash;8 weeks</span>
+            <span><span class="meta-label">Platform:</span> Soundtrap for Education</span>
+          </div>
+        </div>
+
+        <!-- MC2 -->
+        <div class="mc-card">
+          <div class="mc-card-header">
+            <span class="mc-number mc-number--s1">MC2</span>
+            <div class="mc-card-title-block">
+              <h4>Experience Design Awareness: Cultural Systems, Icons, and Experiential Design</h4>
+              <span class="mc-short-title">Curated Event / Installation / Virtual Environment</span>
+            </div>
+            <span class="status-badge status-badge--developed">Developed</span>
+          </div>
+          <div class="mc-card-body">
+            <p>Teams apply the ARIES methodology (Autopoietic Remix for Intertextual Ecological Systems) to design immersive cultural experiences. Using pre-visualization as tertiary artifacts that shape design thinking, students transform generic ballroom spaces through cultural overlay&mdash;drawing on intertextual reservoirs, experiential assembly, and value objectification.</p>
+          </div>
+          <div class="mc-topics">
+            <span class="mc-topic-tag">ARIES methodology</span>
+            <span class="mc-topic-tag">Experiential design</span>
+            <span class="mc-topic-tag">Intertextuality (Eco)</span>
+            <span class="mc-topic-tag">Wartofsky artifact levels</span>
+            <span class="mc-topic-tag">Pre-visualization</span>
+            <span class="mc-topic-tag">Revenue modeling</span>
+          </div>
+          <div class="mc-card-meta">
+            <span><span class="meta-label">Credits:</span> 3.0 CEUs</span>
+            <span><span class="meta-label">Format:</span> Team-based, cohort</span>
+            <span><span class="meta-label">Duration:</span> 6&ndash;7 weeks</span>
+            <span><span class="meta-label">Platform:</span> Miro, Google Workspace</span>
+          </div>
+        </div>
+
+        <!-- MC3 -->
+        <div class="mc-card">
+          <div class="mc-card-header">
+            <span class="mc-number mc-number--s1">MC3</span>
+            <div class="mc-card-title-block">
+              <h4>Platform and Ecosystem Economics: Cultural Product Tour Strategy</h4>
+              <span class="mc-short-title">Multi-City Tour Design via Strategyzer</span>
+            </div>
+            <span class="status-badge status-badge--developed">Developed</span>
+          </div>
+          <div class="mc-card-body">
+            <p>Breaking from the pre-platform time capsule of MC1&ndash;MC2, students confront the post-platform present. Assuming their MC1 cultural product achieved modest success, they design a multi-city tour strategy using Strategyzer&rsquo;s Business Model Canvas, Value Proposition Canvas, and Lean Canvas&mdash;integrating MC2&rsquo;s ARIES methodology for a pilot event.</p>
+          </div>
+          <div class="mc-topics">
+            <span class="mc-topic-tag">Strategyzer (BMC / VPC / Lean)</span>
+            <span class="mc-topic-tag">Tour logistics &amp; budgeting</span>
+            <span class="mc-topic-tag">City-tier analysis</span>
+            <span class="mc-topic-tag">Platform economics</span>
+            <span class="mc-topic-tag">Cultural entrepreneurship</span>
+            <span class="mc-topic-tag">ARIES integration</span>
+          </div>
+          <div class="mc-card-meta">
+            <span><span class="meta-label">Credits:</span> 3.0 CEUs</span>
+            <span><span class="meta-label">Format:</span> Team-based, cohort</span>
+            <span><span class="meta-label">Duration:</span> 6&ndash;7 weeks</span>
+            <span><span class="meta-label">Platform:</span> Strategyzer, Google Workspace</span>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="stack-card" style="cursor:pointer;" onclick="location.href='resources.html'">
-      <div class="stack-card-accent r"></div>
-      <div class="stack-card-modules">MC4 – MC6 · Paired</div>
-      <div class="stack-card-name">Resources</div>
-      <div class="stack-card-credential r">Resources Certificate</div>
-      <p class="stack-card-desc">Within what institutional infrastructures cultural artifacts circulate — and who controls the conditions of that circulation. Students analyze institutional systems already in operation rather than building from scratch.</p>
-      <ul class="stack-modules-list">
-        <li><span class="module-code">MC4</span><span class="module-name">Institutional Mediation and Archival Voice</span></li>
-        <li><span class="module-code">MC5</span><span class="module-name">Spatial Mediation and Institutional Authority</span></li>
-        <li><span class="module-code">MC6</span><span class="module-name">Systems Mapping and Change Laboratory</span></li>
-      </ul>
+
+    <!-- Stack 2 -->
+    <div class="stack-section">
+      <div class="stack-heading stack-heading--2">
+        <span class="stack-dot"></span>
+        <h3>Stack 2: Institutional Resources</h3>
+        <span class="stack-label">Antithesis &middot; Global / Institutional Scale</span>
+      </div>
+      <div class="mc-cards">
+
+        <!-- MC4 -->
+        <div class="mc-card">
+          <div class="mc-card-header">
+            <span class="mc-number mc-number--s2">MC4</span>
+            <div class="mc-card-title-block">
+              <h4>Archival Interpretation and Remix</h4>
+            </div>
+            <span class="status-badge status-badge--outline">Outline</span>
+          </div>
+          <div class="mc-card-body">
+            <p>Explores how institutions manage and preserve cultural archives&mdash;and how practitioners can interpret and remix those resources in ways that serve both cultural and institutional needs.</p>
+          </div>
+          <div class="mc-topics">
+            <span class="mc-topic-tag">Cultural archives</span>
+            <span class="mc-topic-tag">Institutional preservation</span>
+            <span class="mc-topic-tag">Remix practice</span>
+            <span class="mc-topic-tag">Artist as brand</span>
+          </div>
+          <div class="mc-card-meta">
+            <span><span class="meta-label">Credits:</span> TBD</span>
+            <span><span class="meta-label">Format:</span> TBD</span>
+          </div>
+        </div>
+
+        <!-- MC5 -->
+        <div class="mc-card">
+          <div class="mc-card-header">
+            <span class="mc-number mc-number--s2">MC5</span>
+            <div class="mc-card-title-block">
+              <h4>Communities of Practice</h4>
+            </div>
+            <span class="status-badge status-badge--outline">Outline</span>
+          </div>
+          <div class="mc-card-body">
+            <p>Examines how institutions design experiences and support communities of practice&mdash;and the tensions that arise when institutional resources shape (and sometimes constrain) cultural communities.</p>
+          </div>
+          <div class="mc-topics">
+            <span class="mc-topic-tag">Communities of practice</span>
+            <span class="mc-topic-tag">Institutional design</span>
+            <span class="mc-topic-tag">Cultural intermediaries</span>
+            <span class="mc-topic-tag">Experience management</span>
+          </div>
+          <div class="mc-card-meta">
+            <span><span class="meta-label">Credits:</span> TBD</span>
+            <span><span class="meta-label">Format:</span> TBD</span>
+          </div>
+        </div>
+
+        <!-- MC6 -->
+        <div class="mc-card">
+          <div class="mc-card-header">
+            <span class="mc-number mc-number--s2">MC6</span>
+            <div class="mc-card-title-block">
+              <h4>Workflow and Broadcasting Economics</h4>
+            </div>
+            <span class="status-badge status-badge--outline">Outline</span>
+          </div>
+          <div class="mc-card-body">
+            <p>Examines the economics of broadcast and distribution workflows&mdash;how institutions structure the flow of cultural products to market, and the tensions this creates for cultural producers seeking access to those channels.</p>
+          </div>
+          <div class="mc-topics">
+            <span class="mc-topic-tag">Broadcast economics</span>
+            <span class="mc-topic-tag">Distribution workflows</span>
+            <span class="mc-topic-tag">Market access</span>
+            <span class="mc-topic-tag">Cultural distribution</span>
+          </div>
+          <div class="mc-card-meta">
+            <span><span class="meta-label">Credits:</span> TBD</span>
+            <span><span class="meta-label">Format:</span> TBD</span>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="stack-card" style="cursor:pointer;" onclick="location.href='values.html'">
-      <div class="stack-card-accent v"></div>
-      <div class="stack-card-modules">MC7 – MC9 · Team</div>
-      <div class="stack-card-name">Values</div>
-      <div class="stack-card-credential v">Values Certificate</div>
-      <p class="stack-card-desc">How a value-generating ecosystem can be designed to remain innovative, trustworthy, and sustainable under AI mediation and regulatory constraint. The synthesis that only becomes possible once practitioner and institution have both been fully inhabited.</p>
-      <ul class="stack-modules-list">
-        <li><span class="module-code">MC7</span><span class="module-name">AI-Augmented Design Studio Orchestration</span></li>
-        <li><span class="module-code">MC8</span><span class="module-name">Licensing Architecture, Innovation and Trust Calibration</span></li>
-        <li><span class="module-code">MC9</span><span class="module-name">Boundary Object Pitch and Governance Performance</span></li>
-      </ul>
+
+    <!-- Stack 3 -->
+    <div class="stack-section">
+      <div class="stack-heading stack-heading--3">
+        <span class="stack-dot"></span>
+        <h3>Stack 3: Shared Values</h3>
+        <span class="stack-label">Synthesis &middot; Operational Scale</span>
+      </div>
+      <div class="mc-cards">
+
+        <!-- MC7 -->
+        <div class="mc-card">
+          <div class="mc-card-header">
+            <span class="mc-number mc-number--s3">MC7</span>
+            <div class="mc-card-title-block">
+              <h4>AI-Augmented Systems Design</h4>
+              <span class="mc-short-title">Hybrid Human-AI Coordination Systems</span>
+            </div>
+            <span class="status-badge status-badge--in-dev">In Development</span>
+          </div>
+          <div class="mc-card-body">
+            <p>Focuses on designing hybrid human-AI coordination systems within creative and cultural industries contexts. Central concerns include how AI tools mediate value flows between activity systems, how governance structures protect community trust, and how to stress-test system architectures before live deployment. Outputs serve as prototypes for the MC9 capstone.</p>
+          </div>
+          <div class="mc-topics">
+            <span class="mc-topic-tag">Activity Theory</span>
+            <span class="mc-topic-tag">Change Laboratory</span>
+            <span class="mc-topic-tag">Boundary objects</span>
+            <span class="mc-topic-tag">AI governance</span>
+            <span class="mc-topic-tag">Systems design</span>
+            <span class="mc-topic-tag">Strategyzer + Claude</span>
+          </div>
+          <div class="mc-card-meta">
+            <span><span class="meta-label">Credits:</span> TBD</span>
+            <span><span class="meta-label">Format:</span> TBD</span>
+            <span><span class="meta-label">Case:</span> ClearLED B2B Studio @ MML</span>
+          </div>
+        </div>
+
+        <!-- MC8 -->
+        <div class="mc-card">
+          <div class="mc-card-header">
+            <span class="mc-number mc-number--s3">MC8</span>
+            <div class="mc-card-title-block">
+              <h4>IP and Licensing Strategy</h4>
+            </div>
+            <span class="status-badge status-badge--outline">Outline</span>
+          </div>
+          <div class="mc-card-body">
+            <p>Equips students with conceptual and practical tools to navigate intellectual property and licensing strategy in creative industries contexts&mdash;with particular attention to tensions between cultural producers&rsquo; ownership and institutional interests in distributing, monetizing, or archiving creative work.</p>
+          </div>
+          <div class="mc-topics">
+            <span class="mc-topic-tag">Intellectual property</span>
+            <span class="mc-topic-tag">Licensing frameworks</span>
+            <span class="mc-topic-tag">Creative ownership</span>
+            <span class="mc-topic-tag">Localizable cases</span>
+          </div>
+          <div class="mc-card-meta">
+            <span><span class="meta-label">Credits:</span> TBD</span>
+            <span><span class="meta-label">Format:</span> TBD</span>
+          </div>
+        </div>
+
+        <!-- MC9 -->
+        <div class="mc-card">
+          <div class="mc-card-header">
+            <span class="mc-number mc-number--s3">MC9</span>
+            <div class="mc-card-title-block">
+              <h4>Community and Client Development</h4>
+              <span class="mc-short-title">Certificate Capstone &mdash; Live Formative Intervention</span>
+            </div>
+            <span class="status-badge status-badge--outline">Outline</span>
+          </div>
+          <div class="mc-card-body">
+            <p>The capstone synthesizes all prior stacks into a live formative intervention: designing a fundraising event as a boundary object coordinating a cause-driven organization and a sponsor ecosystem. Students deliver activity system modeling, Strategyzer-based ecosystem design, governance and IP structuring, a formal proposal, a pitch deck, and a live stakeholder defense simulation.</p>
+          </div>
+          <div class="mc-topics">
+            <span class="mc-topic-tag">Formative intervention</span>
+            <span class="mc-topic-tag">Boundary object design</span>
+            <span class="mc-topic-tag">Stakeholder defense</span>
+            <span class="mc-topic-tag">Ecosystem coordination</span>
+            <span class="mc-topic-tag">Portfolio assembly</span>
+          </div>
+          <div class="mc-card-meta">
+            <span><span class="meta-label">Credits:</span> TBD</span>
+            <span><span class="meta-label">Format:</span> TBD</span>
+            <span><span class="meta-label">Completion:</span> MC9 + MC1&ndash;MC8 = Certificate</span>
+          </div>
+        </div>
+      </div>
     </div>
+
   </div>
 </section>
 
-<!-- ── THEORETICAL SPINE ── -->
-<section id="spine">
-  <div class="section-label">Theoretical Spine</div>
-  <h2>Every framework describes <em>the same architecture</em></h2>
-  <p class="lead">Independent disciplines have converged on the same three-level structure through different routes. Recognizing this convergence is itself a form of analytical competence.</p>
-
-  <div class="reveal">
-    <table class="spine-table">
+<!-- Institutional Alignment -->
+<section id="institutions">
+  <div class="container">
+    <p class="section-label">Institutional Alignment</p>
+    <h2>Target Institutions</h2>
+    <p>The certificate is designed to be modular and portable&mdash;each stack is independently licensable, and case examples are localizable by institution. The program de-risks senior courses by formalizing assumed competencies, creates a recruiting funnel for interdisciplinary students, and supports institutional microcredential strategy without cannibalizing existing degree programs.</p>
+    <table class="data-table">
       <thead>
         <tr>
-          <th>S/E/E/D</th>
-          <th>Interrogative</th>
-          <th>Wartofsky</th>
-          <th>PSL</th>
-          <th>Benjamin</th>
-          <th>RPV</th>
+          <th>Institution</th>
+          <th>Course / Program</th>
+          <th>Status</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td><span class="row-label study">Study</span></td>
-          <td>What / Where / Who</td>
-          <td>Primary artifact</td>
-          <td>Products</td>
-          <td>Exhibition value</td>
-          <td>Resources</td>
+          <td>Carleton University</td>
+          <td>BUSI4229A</td>
+          <td class="status-cell">In discussion</td>
         </tr>
         <tr>
-          <td><span class="row-label explore">Explore</span></td>
-          <td>When / How</td>
-          <td>Secondary artifact</td>
-          <td>Services</td>
-          <td>Cult value</td>
-          <td>Processes</td>
+          <td>BCIT</td>
+          <td>Bachelor of Creative Industries</td>
+          <td class="status-cell">Prospective</td>
         </tr>
         <tr>
-          <td><span class="row-label evaluate">Evaluate</span></td>
-          <td>Why</td>
-          <td>Tertiary artifact</td>
-          <td>Licences</td>
-          <td>Exchange value*</td>
-          <td>Values</td>
+          <td>SFU SIAT</td>
+          <td>TBD</td>
+          <td class="status-cell">Prospective</td>
         </tr>
-        <tr class="design-row">
-          <td><span class="row-label design">Design</span></td>
-          <td>What if</td>
-          <td>Vygotsky SxR</td>
-          <td>ARIES</td>
-          <td>Politicization of art</td>
-          <td>Jobs-to-be-done</td>
+        <tr>
+          <td>Emily Carr University</td>
+          <td>TBD</td>
+          <td class="status-cell">Prospective</td>
         </tr>
       </tbody>
     </table>
+    <p style="margin-top: 16px; font-size: 0.85rem; color: var(--color-text-light);">
+      Offered through Multimodal Media Lab + Pacific Design Academy. Licensable to BCIT, UBC, SFU, NIC, and Fairleigh Dickinson University.
+    </p>
   </div>
-
-  <p style="margin-top: 32px; font-size: 14px; color: var(--mid); font-family: var(--mono); letter-spacing: 0.06em;">The frameworks are not parallel translations of the same idea. They are interlocking dimensions of the same activity system, each necessary to make the others fully legible.</p>
 </section>
 
-<!-- ── PLAYLIST LOGIC ── -->
-<section id="playlist">
-  <div class="section-label">The Playlist Logic</div>
-  <h2>Why the sequence is <em>designed</em> this way</h2>
-
-  <div class="playlist-grid reveal">
-    <div>
-      <p class="lead">RPV is the certificate's organizing spine — but students encounter it resequenced: Processes first, then Resources, then Values.</p>
-      <p>This resequencing is only possible because RPV is a <em>system</em> rather than three independent categories. A playlist is not a random reordering of tracks that create an album or "mixtape". It is an intentionally designed sequence of songs prepared for the listener's readiness and real or imagined points of view. The album holds together like a dinner menu because its structure is stable, from the first course to the last.</p>
-      <p>The innovations and changes in designed experiences only work because the system sustains our ability to <em>play</em> with the pieces and "serve the songs", to use a culinary metaphor.</p>
-    </div>
-    <div>
-      <div class="dialectic">
-        <div class="dialectic-step">
-          <div class="dialectic-marker" style="color: var(--processes);">Thesis</div>
-          <div class="dialectic-content">
-            <strong style="color: var(--processes);">Stack 1 — Processes</strong>
-            <p>Identity and cultural self-articulation. The practitioner's irreproducible relationship to their own work and voice.</p>
-          </div>
-        </div>
-        <div class="dialectic-step">
-          <div class="dialectic-marker" style="color: var(--resources);">Antithesis</div>
-          <div class="dialectic-content">
-            <strong style="color: var(--resources);">Stack 2 — Resources</strong>
-            <p>Institutional systems that constrain, mediate, and appropriate that work. The structural tension between practitioner and institution.</p>
-          </div>
-        </div>
-        <div class="dialectic-step">
-          <div class="dialectic-marker" style="color: var(--values);">Synthesis</div>
-          <div class="dialectic-content">
-            <strong style="color: var(--values);">Stack 3 — Values</strong>
-            <p>Governed ecosystem orchestration that resolves the tension into something that can sustain itself — producing, distributing, protecting, and perpetuating value over time.</p>
-          </div>
-        </div>
+<!-- Theoretical Foundations -->
+<section id="foundations">
+  <div class="container">
+    <p class="section-label">Theoretical Foundations</p>
+    <h2>Key Frameworks</h2>
+    <div class="framework-grid">
+      <div class="framework-item">
+        <h4>Activity Theory</h4>
+        <p>Modeling activity systems and identifying structural contradictions at primary, secondary, tertiary, and quaternary levels. Core theoretical spine from MC3 through MC9.</p>
+      </div>
+      <div class="framework-item">
+        <h4>Change Laboratory</h4>
+        <p>Strategyzer tools serve as the "second stimulus" in Change Laboratory methodology. Students design formative interventions rather than solving isolated problems.</p>
+      </div>
+      <div class="framework-item">
+        <h4>Boundary Object Theory</h4>
+        <p>The capstone fundraising event functions as a shared artifact coordinating activity systems with different institutional logics&mdash;a cause-driven organization and a sponsor ecosystem.</p>
+      </div>
+      <div class="framework-item">
+        <h4>Wartofsky Artifact Levels</h4>
+        <p>Primary (resources), secondary (processes), tertiary (perspectives). Pre-visualization tools in MC2 are treated as tertiary artifacts that shape design thinking before decisions are made.</p>
+      </div>
+      <div class="framework-item">
+        <h4>ARIES Methodology</h4>
+        <p>Autopoietic Remix for Intertextual Ecological Systems. Three layers: Cultural Reservoir (intertextual inputs), Experiential Assembly (remix operations), and Value Objectification (authorization).</p>
+      </div>
+      <div class="framework-item">
+        <h4>Strategyzer Toolset</h4>
+        <p>Business Model Canvas, Value Proposition Canvas, and Lean Canvas applied to cultural production contexts. Central to MC3, MC7, and the MC9 capstone.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── CONTRIBUTIONS ── -->
-<section id="contributions">
-  <div class="section-label">Five Original Theoretical Contributions</div>
-  <h2>Beyond the <em>established</em> literature</h2>
-  <p class="lead">The certificate is built on established theoretical foundations. Its curriculum design has produced five original contributions that extend beyond the existing literature.</p>
-
-  
-  <div class="contributions-list reveal">
-    <div class="contribution">
-      <div class="contribution-number">01</div>
-      <div class="contribution-content">
-        <h3>The Three‑Lens Extension of Benjamin's Dialectic</h3>
-        <div class="attribution">Flynn, J. (2006). MASc Thesis, Simon Fraser University.</div>
-        <p>This research extends Walter Benjamin’s analysis of <strong>exhibition value</strong> and <strong>cult value</strong> by introducing a third analytical lens: <strong>exchange value</strong>. Benjamin’s 1936 essay held exhibition value and cult value in tension but did not resolve them into a third lens. The 2006 MASc thesis extended the dialectic into a three‑lens system by identifying exchange value as the economic and governance layer of cultural systems — the domain of engagements, transactions, and interactions that determines whose exhibition value is distributed, whose cult value is protected, and who controls the conditions under which the first two operate.</p>
-      </div>
-    </div>
-
-    <div class="contribution">
-      <div class="contribution-number">02</div>
-      <div class="contribution-content">
-        <h3>The S/E/E/D Methodology for Non‑Linear Cultural System Design</h3>
-        <div class="attribution">Flynn, J. (2010). MBA Project.</div>
-        <p>This research refines Bill Moggridge’s interaction design methodology from <em>Designing Interactions</em> (2007) into the <strong>S/E/E/D framework: Study, Explore, Evaluate, and Design</strong>. Moggridge’s diagram presents design as a non‑linear and iterative process in which practitioners move among activities such as framing, ideation, visualization, prototyping, selection, and evaluation rather than following a fixed sequence.</p>
-        <p>The framework clarifies this process by organizing these activities into three analytical categories aligned with Wartofsky’s levels of cultural artifacts. <strong>Study</strong> establishes the objective conditions of the design problem by identifying what exists and where. <strong>Explore</strong> constructs relational structures by testing when and how elements connect or interact. <strong>Evaluate</strong> introduces value judgments that determine why certain arrangements should persist while others are discarded. <strong>Design</strong> represents the generative synthesis implied throughout the process, reflecting the circular and non‑linear character of Moggridge’s methodology.</p>
-      </div>
-    </div>
-
-    <div class="contribution">
-      <div class="contribution-number">03</div>
-      <div class="contribution-content">
-        <h3>RPV as a Coordinated System of Analytical Lenses</h3>
-        <div class="attribution">Flynn, J. (2010). MBA Project.</div>
-        <p>This research reconceptualizes Clayton Christensen's <strong>Resources–Processes–Values (RPV)</strong> framework as a coordinated system of analytical lenses rather than a static categorization tool. Reading RPV through Stafford Beer's Viable System Model and Maturana and Varela's theory of autopoiesis reveals that Resources, Processes, and Values are not three independent categories but three interdependent perspectives on a self-reproducing system — each lens making the others fully legible, each sustaining the conditions under which the others operate.</p>
-        <p>This is the move that transforms Christensen's diagnostic instrument into something closer to what his 2004 book title promised: not just a way of seeing organizational activity, but a system capable of <em>seeing what's next.</em></p>
-      </div>
-    </div>
-
-    <div class="contribution">
-      <div class="contribution-number">04</div>
-      <div class="contribution-content">
-        <h3>Permission Architectures and the Governance of Cultural Imagination</h3>
-        <div class="attribution">Flynn, J. (2006); extended through PSL framework development (2015).</div>
-        <p>This research extends the three‑lens interpretation of Benjamin’s dialectic by mapping <strong>exhibition value, cult value, and exchange value</strong> onto Wartofsky’s three levels of artifacts and a <strong>Products–Services–Licences</strong> architecture of cultural systems.</p>
-        <p>At the <strong>primary level</strong>, products and technological infrastructures generate exhibition value through mechanical or digital reproduction. At the <strong>secondary level</strong>, services and human interactions sustain the cult value of situated cultural encounters that depend on presence and participation. At the <strong>tertiary level</strong>, licences, legal codes, and institutional permission architectures govern the terms under which products and services may exist, circulate, or interact.</p>
-        <p>The key insight is that tertiary artifacts do not merely regulate activity; they structure the <strong>imaginative conditions under which cultural production becomes possible</strong>. Intellectual property regimes, licensing agreements, and other forms of legal coding determine which cultural forms may circulate and which remain enclosed.</p>
-      </div>
-    </div>
-
-    <div class="contribution">
-      <div class="contribution-number">05</div>
-      <div class="contribution-content">
-        <h3>The 5Ws+H Framework as Diagnostic Lenses for Activity Systems</h3>
-        <div class="attribution">Flynn, J. (2026). Curriculum development research.</div>
-        <p>This research reconceptualizes the interrogative structure <strong>Who, What, Where, When, Why, and How</strong> as diagnostic lenses for institutional analysis rather than narrative prompts. The six lenses map onto Vygotsky’s subject–artifact–result triangle and Wartofsky’s three levels of cultural artifacts, providing a practical grammar for diagnosing activity systems.</p>
-        <p><strong>WHO / WHAT / WHERE</strong> operate at the primary artifact level, identifying the actors, mediating artifacts, and regulatory environments that define the objective conditions of the system. <strong>WHEN / HOW</strong> operate at the secondary level, tracing the relational and procedural dynamics through which these elements are assembled into activity across time. <strong>WHY</strong> operates at the tertiary level, revealing the value structures and permission architectures that determine what institutional actors are able to perceive, pursue, or foreclose within the system.</p>
-      </div>
-    </div>
-  </div>
-
-</section>
-
-<!-- ── PATHWAY ── -->
-<section id="pathway">
-  <div class="section-label">Institutional Pathway</div>
-  <h2>BCI → ARIES → <em>Strategyzer</em></h2>
-  <p class="lead">The certificate is designed as a bridge between the BCIT Bachelor of Creative Industries degree and a formalized Strategyzer-licensed professional credential, facilitated through the BCIT Tech Collider.</p>
-
-  <div class="pathway reveal">
-    <div class="pathway-node">
-      <div class="pathway-node-label">Entry</div>
-      <div class="pathway-node-name">BCIT BCI Degree</div>
-      <p class="pathway-node-desc">60-credit degree completion program for diploma graduates from creative fields. Launched May 2025, BCIT School of Business + Media. Integrates entrepreneurship, design thinking, ethics, and emerging technologies.</p>
-    </div>
-    <div class="pathway-arrow">→</div>
-    <div class="pathway-node" style="border-color: var(--ink); border-width: 2px;">
-      <div class="pathway-node-label">Bridge</div>
-      <div class="pathway-node-name">ARIES Certificate</div>
-      <p class="pathway-node-desc">Nine modules building the theoretical literacy — PSL framework, permission architecture design, RPV governance — that makes Strategyzer's tools analytically rigorous rather than procedurally mechanical. Pilot delivery via BCIT Tech Collider, 555 Seymour Street, Vancouver.</p>
-    </div>
-    <div class="pathway-arrow">→</div>
-    <div class="pathway-node">
-      <div class="pathway-node-label">Outcome</div>
-      <div class="pathway-node-name">Strategyzer Licensed</div>
-      <p class="pathway-node-desc">Formally licensed Strategyzer learning outcomes — Business Model Canvas, Value Proposition Canvas, revenue logic modeling. BCI graduates who complete ARIES arrive at Strategyzer-licensed learning with the institutional and governance literacy to make those tools genuinely powerful.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ── CERTIFIES ── -->
-<section id="certifies">
-  <div class="section-label">What the Certificate Certifies</div>
-  <h2>Stack 1 taught you to produce.<br><em>Stack 2 taught you to diagnose.<br>Stack 3 taught you to orchestrate.</em></h2>
-  <p style="margin-bottom: 0; margin-top: 16px; font-family: var(--serif); font-size: 18px; font-style: italic; color: var(--mid);">MC9 proves whether you can perform.</p>
-
-  <ul class="certifies-list reveal">
-    <li>Construct media artifacts intentionally and reflectively, analyzing persona as symbolic infrastructure across media eras</li>
-    <li>Apply Wartofsky's three-level artifact theory and the four-framework convergence table across analytical and design contexts</li>
-    <li>Design a contained cultural experience using full ARIES methodology and a distributed multi-city promotional tour using S/E/E/D methodology</li>
-    <li>Conduct structured AI research sessions, evaluate outputs against primary sources, and configure AI skills within governed workflows</li>
-    <li>Map institutional activity systems, identify structural contradictions, and diagnose resource governance across jurisdictions</li>
-    <li>Use previsualization as a tertiary artifact — a second stimulus that makes institutional contradictions visible before material intervention</li>
-    <li>Design an AI-augmented studio architecture with explicit role differentiation, human/AI governance boundaries, and transparent value flows</li>
-    <li>Construct a permission architecture that encodes values into governance structure at the tertiary/licence layer — and defend it under Benjamin's test</li>
-    <li>Defend a fully designed ecosystem under live scrutiny before external reviewers — demonstrating that legitimacy emerges from systemic coherence rather than regulatory compliance</li>
-  </ul>
-</section>
-
-<!-- ── FOOTER ── -->
-<footer>
-  <div class="footer-inner">
-    <div>
-      <div class="footer-block-label">Program</div>
-      <div class="footer-block-content">
-        ARIES Certificate in Innovation System Orchestration for the Creative Industries<br>
-        Nine modules · Three stacks · Three sub-certificates<br>
-        MC1–MC9
-      </div>
-    </div>
-    <div>
-      <div class="footer-block-label">Institutional Context</div>
-      <div class="footer-block-content">
-        Under evaluation for fit with BCIT Bachelor of Creative Industries (BCI) program.<br>
-        Pilot delivery: BCIT Tech Collider, 555 Seymour Street, Vancouver.
-      </div>
-    </div>
-    <div>
-      <div class="footer-block-label">Theoretical Foundations</div>
-      <div class="footer-block-content">
-        Wartofsky · Engeström · Vygotsky · Benjamin · Berger · Cole · Beer · Maturana &amp; Varela · Foucault · Lessig · Pistor · Christensen
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <span>Joel Flynn · March 2026</span>
-    <span>Program Overview v1.0</span>
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <p class="footer-line"><strong>Advanced Design Certificate in AI-Augmented Cultural Systems &amp; Experiences</strong></p>
+    <p class="footer-line">Version 0.2.0 &middot; Updated February 2026</p>
+    <p class="footer-line">Multimodal Media Lab &middot; Pacific Design Academy</p>
   </div>
 </footer>
 
-<script>
-  // Scroll reveal
-  const reveals = document.querySelectorAll('.reveal');
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
-
-  reveals.forEach(el => observer.observe(el));
-</script>
-<script src="js/site.js" defer></script>
 </body>
 </html>
