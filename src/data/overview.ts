@@ -76,7 +76,8 @@ export const contributions = [
     title: "RPV as a Coordinated System of Analytical Lenses",
     attribution: "Flynn, J. (2010). MBA Project.",
     paragraphs: [
-      'This research reconceptualizes Clayton Christensen\u2019s <strong>Resources\u2013Processes\u2013Values (RPV)</strong> framework as a coordinated system of analytical lenses rather than a static categorization tool. By treating resources, processes, and values as distinct but interdependent perspectives on organizational activity, the framework provides a practical method for diagnosing innovation systems across technological infrastructure, operational practices, and institutional governance.',
+      'This research reconceptualizes Clayton Christensen\u2019s <strong>Resources\u2013Processes\u2013Values (RPV)</strong> framework as a coordinated system of analytical lenses rather than a static categorization tool. Reading RPV through Stafford Beer\'s Viable System Model and Maturana and Varela\'s theory of autopoiesis reveals that Resources, Processes, and Values are not three independent categories but three interdependent perspectives on a self-reproducing system \u2014 each lens making the others fully legible, each sustaining the conditions under which the others operate.',
+      'This is the move that transforms Christensen\'s diagnostic instrument into something closer to what his 2004 book title promised: not just a way of seeing organizational activity, but a system capable of <em>seeing what\'s next.</em>',
     ],
   },
   {

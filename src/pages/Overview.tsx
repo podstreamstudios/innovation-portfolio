@@ -56,7 +56,7 @@ export function Overview() {
           <p className="font-serif text-[clamp(18px,2.2vw,24px)] font-light leading-[1.55] text-parchment max-w-[680px] opacity-0 animate-fade-up [animation-delay:0.55s]">
             A nine-module professional certificate in cultural production, institutional analysis,
             and ecosystem governance &mdash; designed for creative industries practitioners who need
-            to understand what they are inside of.
+            to understand what they are inside of... and what's inside of them.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 border-t border-t-[#1e1c18]">
@@ -111,12 +111,7 @@ export function Overview() {
               governance lens that Benjamin&rsquo;s framework needed but never fully articulated.
             </p>
             <p className="text-[16px] leading-[1.75] text-[#3a3830] max-w-[680px] mb-5">
-              That third lens - exchange value - is the layer that determines whose exhibition value
-              gets distributed, whose cult value gets protected, and who controls the conditions
-              under which the first two layers operate. The ARIES name encodes this three-lens
-              structure into a series of stacked microcredentials. The certificate is what that
-              theoretical statement has become when extended to its full institutional and ecosystem
-              complexity.
+              That third lens - exchange value - is the layer that determines the reach of the exhibition value's network effects, whose cult value gets protected, and who controls the conditions under which the first two layers operate. The ARIES name and methodology encodes this three-lens structure into a series of stacked microcredentials that are framed in terms of Clayton Christensen's RPV theory &mdash; not just as John Berger's ways of seeing, but in seeing what's next (<em>Seeing What's Next</em>, Christensen, Anthony &amp; Roth, 2004). The certificate is what that theoretical statement has become when extended to its full institutional and ecosystem complexity.
             </p>
             <p className="text-[16px] leading-[1.75] text-[#3a3830] max-w-[680px] mb-5">
               The certificate exists in two registers simultaneously: it is a professional credential
@@ -125,6 +120,16 @@ export function Overview() {
               is what you have designed theoretically &ldquo;the aestheticization of
               politics&rdquo;? Or is it &ldquo;the politicization of art&rdquo;?
             </p>
+
+            <div className="relative w-full pb-[56.25%] mb-8">
+              <iframe
+                src="https://www.youtube.com/embed/cfmDs3Xs1Uo"
+                title="ARIES Certificate"
+                className="absolute top-0 left-0 w-full h-full border-0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
           </div>
           <div>
             <blockquote className="font-serif text-[clamp(22px,2.5vw,32px)] font-normal italic leading-[1.45] text-ink border-l-[3px] border-l-processes pl-7">
@@ -307,9 +312,10 @@ export function Overview() {
             </p>
             <p className="text-[16px] leading-[1.75] text-[#3a3830] max-w-[680px] mb-5">
               This resequencing is only possible because RPV is a <em>system</em> rather than three
-              independent categories. A playlist is not a random reordering of tracks. It is the
-              same album, resequenced for the listener&rsquo;s readiness. The album holds together
-              because its structure is stable. The resequencing works because the system sustains it.
+              independent categories. A playlist is not a random reordering of tracks that create an album or "mixtape". It is an intentionally designed sequence of songs prepared for the listener's readiness and real or imagined points of view. The album holds together like a dinner menu because its structure is stable, from the first course to the last.
+            </p>
+            <p className="text-[16px] leading-[1.75] text-[#3a3830] max-w-[680px] mb-5">
+              The innovations and changes in designed experiences only work because the system sustains our ability to <em>play</em> with the pieces and "serve the songs", to use a culinary metaphor.
             </p>
             <p className="text-[16px] leading-[1.75] text-[#3a3830] max-w-[680px] mb-5">
               A student who encounters Resources first &mdash; institutional systems, archival
