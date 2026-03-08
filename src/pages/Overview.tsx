@@ -130,8 +130,7 @@ export function Overview() {
                 allowFullScreen
               />
             </div>
-          </div>
-          <div>
+
             <blockquote className="font-serif text-[clamp(22px,2.5vw,32px)] font-normal italic leading-[1.45] text-ink border-l-[3px] border-l-processes pl-7">
               &ldquo;The teaching of IAT 203 produced both a methodology and a question: how do you
               design a cultural system that can sustain value without aestheticizing the cause it
@@ -140,8 +139,9 @@ export function Overview() {
                 &mdash; Joel Flynn, March 2026
               </cite>
             </blockquote>
-
-            <div className="mt-10 border border-rule">
+          </div>
+          <div>
+            <div className="border border-rule">
               {acronymBreakdown.map((row) => (
                 <div
                   key={row.letter}
