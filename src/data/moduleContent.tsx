@@ -787,7 +787,7 @@ function valuesModules(): StackModules {
               <tbody>
                 <tr className="psl-row-p"><td>Primary Artifact</td><td><span className="psl-accent">Resources</span></td><td><strong>Products</strong></td><td>Exhibition Value</td><td>Tangible asset or tool; the technological layer. Ownership is possession-based.</td></tr>
                 <tr className="psl-row-s"><td>Secondary Artifact</td><td><span className="psl-accent">Processes</span></td><td><strong>Services</strong></td><td>Cult Value</td><td>Structured activity performed; the social/relational layer. The irreproducible encounter.</td></tr>
-                <tr className="psl-row-l"><td className="text-parchment/60">Tertiary Artifact</td><td><span className="psl-accent-dark">Values</span></td><td className="text-parchment font-bold">Licences</td><td className="text-parchment/60">Economic/Governance</td><td className="text-parchment/70">Permission structure; the governance layer. Determines whose exhibition value circulates and in whose interest.</td></tr>
+                <tr className="psl-row-l"><td className="text-parchment/60">Tertiary Artifact</td><td><span className="psl-accent-dark">Values</span></td><td className="text-parchment font-bold">Licences</td><td className="text-parchment/60">Exchange Value</td><td className="text-parchment/70">Permission structure; the governance layer. Determines whose exhibition value circulates and in whose interest.</td></tr>
               </tbody>
             </table>
 
