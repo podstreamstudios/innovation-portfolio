@@ -52,6 +52,20 @@ function processesModules(): StackModules {
 
             <h3>From Oil Painting to Personal Brand</h3>
             <p>In 1973, Berger&rsquo;s <em>Ways of Seeing</em> examined how oil paintings functioned as markers of wealth and ritual authority. With photography, reproduction altered the cultural function of the image &mdash; oil paintings lost their singular aura (Benjamin). In their place emerged the publicity image, which frames aspiration and constructs value through projection. Branding is the modern continuation of the publicity image.</p>
+
+            <div className="assignment-block assignment-block-processes">
+              <div className="assignment-block-label">The Assignment</div>
+              <h4 className="assignment-block-title">YOU&reg; Audio Essay &amp; Comparative Persona Analysis</h4>
+              <p className="assignment-block-desc">Two deliverables, individually submitted. The YOU&reg; Audio Essay (8&ndash;12 minutes, exported from Soundtrap) is not autobiography &mdash; it is the deliberate construction of a market-facing identity expressed through a cultural product. The Comparative Persona Analysis places Thompson and Hayes side by side across platform control, mythology formation, and vocal medium. A Written Context &amp; Reflection (1,000&ndash;1,500 words) integrates at least two course concepts at the tertiary artifact level. Total estimated time: 40&ndash;50 hours.</p>
+              <table className="framework-table">
+                <thead><tr><th>Deliverable</th><th>Weight</th><th>Format</th></tr></thead>
+                <tbody>
+                  <tr><td><span className="fw-label">YOU&reg; Audio Essay</span></td><td>50%</td><td>MP3, 8&ndash;12 min, from Soundtrap</td></tr>
+                  <tr><td><span className="fw-label">Comparative Persona Analysis</span></td><td>25%</td><td>4&ndash;6 pages: Thompson vs. Hayes + Enhanced Podcast History</td></tr>
+                  <tr><td><span className="fw-label">Written Context &amp; Reflection</span></td><td>25%</td><td>1,000&ndash;1,500 words across four required sections</td></tr>
+                </tbody>
+              </table>
+            </div>
           </>
         ),
         sidebar: (
@@ -83,7 +97,8 @@ function processesModules(): StackModules {
               <div className="sidebar-card-label">Final Deliverables</div>
               <ul className="deliverables-list">
                 <li><span className="deliverable-weight">50%</span>YOU&reg; Audio Essay (8&ndash;12 min, MP3 from Soundtrap)</li>
-                <li><span className="deliverable-weight">50%</span>Thompson/Hayes Comparative Persona Analysis (4&ndash;6 pages)</li>
+                <li><span className="deliverable-weight">25%</span>Thompson/Hayes Comparative Persona Analysis (4&ndash;6 pages)</li>
+                <li><span className="deliverable-weight">25%</span>Written Context &amp; Reflection (1,000&ndash;1,500 words)</li>
               </ul>
             </div>
             <div className="sidebar-card">
@@ -138,7 +153,28 @@ function processesModules(): StackModules {
             </div>
 
             <h3>Pre-Visualization as Tertiary Artifact</h3>
-            <p>Pre-visualization tools are not neutral documentation methods &mdash; they are Wartofsky tertiary artifacts that shape design thinking itself. Different tools make different design possibilities visible or invisible. The tool is the framing device. This is MC1&rsquo;s lesson operating at the design methodology level.</p>
+            <p>Pre-visualization tools are not neutral documentation methods &mdash; they are Wartofsky tertiary artifacts that shape design thinking itself. Different tools make different design possibilities visible or invisible. Spatial platforms make systems thinking visible; presentation software makes sequential narrative visible; 3D rendering makes atmospheric immersion visible; spreadsheets make financial viability visible.</p>
+            <p>The tool is the framing device. This is MC1&rsquo;s lesson operating at the design methodology level.</p>
+
+            <h3>Required Viewing</h3>
+            <p>Berger&rsquo;s <em>Ways of Seeing</em> Episode 1 (BBC, 1972): Berger&rsquo;s direct application of Benjamin&rsquo;s mechanical reproduction argument to the history of painting. How photography changed not just what we see but how we see &mdash; how reproduction strips the original of its aura and context, and how market value fills the gap left by cult value.</p>
+
+            <div className="assignment-block assignment-block-processes">
+              <div className="assignment-block-label">The Assignment</div>
+              <h4 className="assignment-block-title">Pre-Visualization Design Package</h4>
+              <p className="assignment-block-desc">Students analyze the Casablanca @ The American exemplar in full &mdash; all three ARIES layers &mdash; then apply the same methodology to a venue in their own city. The Pre-Visualization Design Package is client-facing: an artifact suitable to share with the actual venue. Individual Reflective Documentation (2,000&ndash;2,500 words) is submitted alongside it, integrating theoretical frameworks with design decisions.</p>
+              <table className="framework-table">
+                <thead><tr><th>Component</th><th>Weight</th></tr></thead>
+                <tbody>
+                  <tr><td><span className="fw-label">Layer 1 &mdash; Cultural Reservoir (Viability)</span></td><td>15%</td></tr>
+                  <tr><td><span className="fw-label">Layer 2 &mdash; Experiential Assembly (Feasibility)</span></td><td>20%</td></tr>
+                  <tr><td><span className="fw-label">Layer 3 &mdash; Value Objectification (Desirability)</span></td><td>15%</td></tr>
+                  <tr><td><span className="fw-label">Professional Presentation Quality</span></td><td>10%</td></tr>
+                  <tr><td><span className="fw-label">Individual Reflective Documentation</span></td><td>25%</td></tr>
+                  <tr><td><span className="fw-label">Participation</span></td><td>15%</td></tr>
+                </tbody>
+              </table>
+            </div>
           </>
         ),
         sidebar: (
@@ -160,6 +196,17 @@ function processesModules(): StackModules {
                 <li>Casablanca @ The American pre-viz PDF (exemplar)</li>
                 <li>Maturana &amp; Varela &mdash; autopoiesis (excerpts, provided)</li>
                 <li>Beer &mdash; viable systems model (excerpts, provided)</li>
+              </ul>
+            </div>
+            <div className="sidebar-card">
+              <div className="sidebar-card-label">Final Deliverables</div>
+              <ul className="deliverables-list">
+                <li><span className="deliverable-weight">15%</span>Layer 1 &mdash; Cultural Reservoir (Viability diagnostic)</li>
+                <li><span className="deliverable-weight">20%</span>Layer 2 &mdash; Experiential Assembly (Feasibility diagnostic)</li>
+                <li><span className="deliverable-weight">15%</span>Layer 3 &mdash; Value Objectification (Desirability diagnostic)</li>
+                <li><span className="deliverable-weight">10%</span>Professional Presentation Quality</li>
+                <li><span className="deliverable-weight">25%</span>Individual Reflective Documentation (2,000&ndash;2,500 words)</li>
+                <li><span className="deliverable-weight">15%</span>Participation</li>
               </ul>
             </div>
             <div className="sidebar-card">
@@ -201,9 +248,15 @@ function processesModules(): StackModules {
               </tbody>
             </table>
 
+            <p>S/E/E/D governs the macro-level circulation design (the full tour skeleton). ARIES governs the micro-level event design within a single stop. They are operating the same theoretical architecture at different scales.</p>
+
+            <h3>The Black Box: You Are the Cultural Creator</h3>
+            <p>In MC3, the student is positioned as a cultural creator &mdash; a musician, filmmaker, writer, game designer, podcaster, or designer &mdash; designing their own promotional tour. The work itself is the <strong>black box</strong>. You are not creating content. You are designing the system of your own circulation.</p>
+            <p>The specific nature of your work determines the circulation logic &mdash; the kinds of venues your presence requires, the audiences you serve, the rights and permissions involved. But from the point your creator identity is established, the content of the work fades into the background. The system of your circulation is what you are designing.</p>
+
             <h3>AI Integration: Building a Claude Skill</h3>
             <p>MC1 established AI as a mythology machine &mdash; a tertiary artifact that produces tertiary artifacts. MC3 moves from <em>observing</em> AI as mythology machine to <strong>building one</strong>.</p>
-            <p>Students configure a Claude Skill &mdash; a structured, reusable capability &mdash; targeted at a specific tour planning task. Then they evaluate that skill using S/E/E/D.</p>
+            <p>Students configure a Claude Skill &mdash; a structured, reusable capability &mdash; targeted at a specific tour planning task (routing logic, venue shortlisting, cost modelling, risk matrix, or itinerary drafting). Then they evaluate that skill using S/E/E/D. Not &ldquo;is this fact correct?&rdquo; but &ldquo;at which phase of the design process does this skill produce useful output &mdash; and where does it require human override?&rdquo;</p>
 
             <table className="framework-table">
               <thead><tr><th>Wartofsky Level</th><th>AI Relationship</th><th>Module</th></tr></thead>
@@ -213,6 +266,29 @@ function processesModules(): StackModules {
                 <tr><td><span className="fw-label">Tertiary</span></td><td>Claude as a coordinated three-skill architecture governing the studio&rsquo;s production, process, and governance capacity.</td><td>MC7</td></tr>
               </tbody>
             </table>
+
+            <p>MC3 is the transition from Primary to Secondary. You are not yet building a governance system. You are learning what it means to encode a frame &mdash; and discovering, through S/E/E/D evaluation, where the frame you built holds and where it breaks.</p>
+
+            <h3>Miller&rsquo;s Law</h3>
+            <p>George Miller&rsquo;s &ldquo;Magical Number Seven, Plus or Minus Two&rdquo; (1956) establishes that working memory can hold approximately 5&ndash;9 chunks of information. MC3 applies this as a routing constraint: a tour of 5&ndash;9 cities sits within the cognitive architecture&rsquo;s perceptual sweet spot. This constraint recurs in Stack 2 (how many institutional variables can a comparative analysis track?) and Stack 3 MC7 (how many sponsors and partners can an ecosystem coordinate before it loses coherence?).</p>
+
+            <div className="assignment-block assignment-block-processes">
+              <div className="assignment-block-label">The Assignment</div>
+              <h4 className="assignment-block-title">Cultural Product Circulation Strategy Package</h4>
+              <p className="assignment-block-desc">Two simultaneous tracks run through MC3. Track 1 is the circulation design: a professionally viable 5&ndash;7 city tour itinerary with full S/E/E/D documentation &mdash; constraint map, city hypothesis, venue research, risk matrix, and a full three-layer ARIES analysis for one pilot stop. Track 2 is the AI evaluation: two structured Claude research sessions verified against primary sources, a configured Claude Skill for a specific tour planning task, and a rigorous S/E/E/D evaluation of that skill. Both tracks culminate in a 25&ndash;30 slide Circulation Strategy Package and Individual Reflective Documentation.</p>
+              <table className="framework-table">
+                <thead><tr><th>Criterion</th><th>Weight</th></tr></thead>
+                <tbody>
+                  <tr><td><span className="fw-label">S/E/E/D Process Application</span></td><td>20%</td></tr>
+                  <tr><td><span className="fw-label">Circulation Skeleton Realism</span></td><td>15%</td></tr>
+                  <tr><td><span className="fw-label">AI Evaluation Quality</span></td><td>15%</td></tr>
+                  <tr><td><span className="fw-label">ARIES Pilot Stop (full three-layer analysis)</span></td><td>15%</td></tr>
+                  <tr><td><span className="fw-label">Professional Presentation Quality</span></td><td>10%</td></tr>
+                  <tr><td><span className="fw-label">Individual Reflective Documentation</span></td><td>20%</td></tr>
+                  <tr><td><span className="fw-label">Participation</span></td><td>5%</td></tr>
+                </tbody>
+              </table>
+            </div>
           </>
         ),
         sidebar: (
@@ -227,8 +303,20 @@ function processesModules(): StackModules {
               <div className="sidebar-card-label">Key Texts</div>
               <ul className="reading-list">
                 <li>Moggridge, Designing Interactions &mdash; Chapter 10 (MIT Press, 2007)</li>
-                <li>Flynn, SEEDFEED (SFU MBA, 2010)</li>
-                <li>Miller, &ldquo;The Magical Number Seven, Plus or Minus Two&rdquo; (1956)</li>
+                <li>Flynn, SEEDFEED: The Interactive Marketing and Design of a Digital Video Ecosystem (SFU MBA, 2010)</li>
+                <li>Miller, &ldquo;The Magical Number Seven, Plus or Minus Two&rdquo; (Psychological Review, 1956)</li>
+              </ul>
+            </div>
+            <div className="sidebar-card">
+              <div className="sidebar-card-label">Final Deliverables</div>
+              <ul className="deliverables-list">
+                <li><span className="deliverable-weight">20%</span>S/E/E/D Process Documentation (constraint map through Design phase)</li>
+                <li><span className="deliverable-weight">15%</span>Circulation Skeleton &mdash; 5&ndash;7 cities, routing map, cost model, risk matrix</li>
+                <li><span className="deliverable-weight">15%</span>AI Evaluation &mdash; two sessions + configured Skill + S/E/E/D profile</li>
+                <li><span className="deliverable-weight">15%</span>ARIES Pilot Stop &mdash; full three-layer analysis + pre-viz deck</li>
+                <li><span className="deliverable-weight">10%</span>Professional presentation quality (25&ndash;30 slides)</li>
+                <li><span className="deliverable-weight">20%</span>Individual Reflective Documentation</li>
+                <li><span className="deliverable-weight">5%</span>Participation</li>
               </ul>
             </div>
             <div className="sidebar-card">
@@ -299,18 +387,60 @@ function resourcesModules(): StackModules {
               </div>
             </div>
 
+            <p>This is the alienation mechanic in its purest institutional form: S creates X. X is institutionally captured. X is turned against S. S must negotiate with his own creative voice as an external legal weapon.</p>
+
+            <p>Lessig named the structural version: Big Media uses technology and law to lock down culture. &ldquo;North of California&rdquo; (Silicon Valley, free culture, minimum legal control) vs. &ldquo;south of California&rdquo; (Hollywood, owned culture, absolute property rights) is the same tension Fogerty lived personally, scaled to an industry.</p>
+
+            <h3>The Comparative Case Study: Crowe vs. Curtis</h3>
+            <p>MC4&rsquo;s analytical preparation is a compare-contrast of two filmmakers whose authorship is inseparable from the institutional systems that produced them. This directly escalates the Thompson/Hayes method from MC1 to institutional and jurisdictional scale.</p>
+
+            <div className="register-flow">
+              <div className="register-cell">
+                <div className="register-cell-mod">Crowe Position</div>
+                <div className="register-cell-focus">Hollywood Studio System</div>
+                <div className="register-cell-move">American commercial media. Exhibition value logic operating on practitioners: rights-as-property, scale reproduction, work-for-hire. Rolling Stone journalism absorbed into nostalgia cinema.</div>
+              </div>
+              <div className="register-cell">
+                <div className="register-cell-mod">vs.</div>
+                <div className="register-cell-focus" style={{ paddingTop: 28, color: "var(--color-mid)", fontSize: 20, fontFamily: "var(--font-serif)", fontStyle: "italic" }}>vs.</div>
+              </div>
+              <div className="register-cell">
+                <div className="register-cell-mod">Curtis Position</div>
+                <div className="register-cell-focus">BBC Public Broadcasting</div>
+                <div className="register-cell-move">British/Canadian public broadcasting. Cult value being institutionally protected: irreproducible encounter with archival material. Moral rights tradition preserves the author&rsquo;s ongoing relationship to the work.</div>
+              </div>
+            </div>
+
+            <p>Each pair is assigned one institutional subject position &mdash; Crowe or Curtis &mdash; and produces analysis from within it. This is not a preference exercise. The analytical value lies in inhabiting the institutional constraints, not in choosing a favourite.</p>
+
             <h3>Primary Content: The World at War</h3>
-            <p><em>The World at War</em> (Thames Television/ITV, 1973) &mdash; Episodes 1 and 26 &mdash; is the module&rsquo;s primary analytical object.</p>
+            <p><em>The World at War</em> (Thames Television/ITV, 1973) &mdash; Episodes 1 and 26 &mdash; is the module&rsquo;s primary analytical object. It is both an archival resource and an institutional production: a claim to definitive historical narrative made by a specific institution at a specific political moment (postwar Britain, 1973, the end of empire).</p>
 
             <h3>The 5Ws+H as Diagnostic Instrument</h3>
             <table className="framework-table">
               <thead><tr><th>5Ws+H</th><th>Wartofsky Level</th><th>S/E/E/D Phase</th><th>What It Diagnoses</th></tr></thead>
               <tbody>
-                <tr><td><span className="fw-label">Who / What / Where</span></td><td>Primary artifact</td><td>Study</td><td>Objective, verifiable conditions</td></tr>
-                <tr><td><span className="fw-label">When / How</span></td><td>Secondary artifact</td><td>Explore</td><td>Sequences and processes</td></tr>
-                <tr><td><span className="fw-label">Why</span></td><td>Tertiary artifact</td><td>Evaluate</td><td>The permission architecture</td></tr>
+                <tr><td><span className="fw-label">Who / What / Where</span></td><td>Primary artifact</td><td>Study</td><td>Objective, verifiable conditions &mdash; actors, objects, regulatory environments</td></tr>
+                <tr><td><span className="fw-label">When / How</span></td><td>Secondary artifact</td><td>Explore</td><td>Sequences and processes through which primary elements are assembled into activity</td></tr>
+                <tr><td><span className="fw-label">Why</span></td><td>Tertiary artifact</td><td>Evaluate</td><td>The permission architecture &mdash; what each institutional position can see and what it forecloses</td></tr>
               </tbody>
             </table>
+
+            <div className="assignment-block assignment-block-resources">
+              <div className="assignment-block-label">The Assignment</div>
+              <h4 className="assignment-block-title">Institutional Mediation Analysis &amp; Audio Essay</h4>
+              <p className="assignment-block-desc">Pairs produce a 5Ws+H diagnostic grid analyzing The World at War through their assigned institutional position (Crowe or Curtis), an Episode Review Audio Essay (8&ndash;12 min) with production notes, and an original music composition with artistic statement (4&ndash;8 min). Individual positional statement (300&ndash;400 words) is submitted before paired work begins.</p>
+              <table className="framework-table">
+                <thead><tr><th>Deliverable</th><th>Weight</th></tr></thead>
+                <tbody>
+                  <tr><td><span className="fw-label">Positional Statement (individual)</span></td><td>10%</td></tr>
+                  <tr><td><span className="fw-label">5Ws+H Diagnostic Grid (pair)</span></td><td>20%</td></tr>
+                  <tr><td><span className="fw-label">Episode Review Audio Essay + Production Notes</span></td><td>30%</td></tr>
+                  <tr><td><span className="fw-label">Music Composition + Artistic Statement</span></td><td>30%</td></tr>
+                  <tr><td><span className="fw-label">Peer Review Response</span></td><td>10%</td></tr>
+                </tbody>
+              </table>
+            </div>
           </>
         ),
         sidebar: (
@@ -394,6 +524,22 @@ function resourcesModules(): StackModules {
                 </div>
               ))}
             </div>
+
+            <div className="assignment-block assignment-block-resources">
+              <div className="assignment-block-label">The Assignment</div>
+              <h4 className="assignment-block-title">Dual Installation Pre-Visualization</h4>
+              <p className="assignment-block-desc">Teams of 3&ndash;4 design a digital installation for both the Canadian War Museum (Ottawa) and the National WWII Museum (New Orleans) using the same archival content adapted to each institution&rsquo;s constraints. Includes institutional comparative brief, historical re-visualization package, dual pre-visualization deck, trivia corpus, and team reflection.</p>
+              <table className="framework-table">
+                <thead><tr><th>Component</th><th>Weight</th></tr></thead>
+                <tbody>
+                  <tr><td><span className="fw-label">Institutional Comparative Brief</span></td><td>20%</td></tr>
+                  <tr><td><span className="fw-label">Historical Re-Visualization Package</span></td><td>20%</td></tr>
+                  <tr><td><span className="fw-label">Dual Installation Pre-Visualization Deck</span></td><td>30%</td></tr>
+                  <tr><td><span className="fw-label">Trivia Corpus + Competition Space Pre-Viz</span></td><td>10%</td></tr>
+                  <tr><td><span className="fw-label">Team Reflection</span></td><td>20%</td></tr>
+                </tbody>
+              </table>
+            </div>
           </>
         ),
         sidebar: (
@@ -467,6 +613,21 @@ function resourcesModules(): StackModules {
                   <div className="register-cell-move">{p.move}</div>
                 </div>
               ))}
+            </div>
+
+            <div className="assignment-block assignment-block-resources">
+              <div className="assignment-block-label">The Assignment</div>
+              <h4 className="assignment-block-title">Change Laboratory Report &amp; Governance Position Statement</h4>
+              <p className="assignment-block-desc">Same teams as MC5. Students produce full Engestr&ouml;m six-node activity system maps for both museums, a contradiction analysis report identifying structural tensions, Change Laboratory modeling summary proposing reconfigurations, and a Governance &amp; AI Position Statement addressing epistemological implications of AI mediation in institutional contexts.</p>
+              <table className="framework-table">
+                <thead><tr><th>Component</th><th>Weight</th></tr></thead>
+                <tbody>
+                  <tr><td><span className="fw-label">Dual Activity System Maps</span></td><td>25%</td></tr>
+                  <tr><td><span className="fw-label">Contradiction Analysis Report</span></td><td>30%</td></tr>
+                  <tr><td><span className="fw-label">Change Laboratory Modeling Summary</span></td><td>25%</td></tr>
+                  <tr><td><span className="fw-label">Governance &amp; AI Position Statement</span></td><td>20%</td></tr>
+                </tbody>
+              </table>
             </div>
           </>
         ),
@@ -558,6 +719,22 @@ function valuesModules(): StackModules {
                 <tr><td><span className="fw-label">Hustler</span></td><td>Category 3 &mdash; MCP / Governance</td><td>Tertiary / Values</td><td>Governance-level, potentially invisible until pressure.</td></tr>
               </tbody>
             </table>
+
+            <div className="assignment-block assignment-block-values">
+              <div className="assignment-block-label">The Assignment</div>
+              <h4 className="assignment-block-title">AI-Augmented Studio Design Package</h4>
+              <p className="assignment-block-desc">Student-formed teams design a complete AI-augmented branding and activation studio. Deliverables include a Studio Charter with explicit governance protocols, an RPV Architecture Map showing resource/process/value interdependencies, Dual Value Proposition Analysis (studio-to-sponsor and studio-to-cause), and a Three-Skill Architecture specification with role-differentiated AI integration.</p>
+              <table className="framework-table">
+                <thead><tr><th>Component</th><th>Weight</th></tr></thead>
+                <tbody>
+                  <tr><td><span className="fw-label">Studio Charter + Governance Protocols</span></td><td>25%</td></tr>
+                  <tr><td><span className="fw-label">RPV Architecture Map</span></td><td>20%</td></tr>
+                  <tr><td><span className="fw-label">Dual Value Proposition Analysis</span></td><td>25%</td></tr>
+                  <tr><td><span className="fw-label">Three-Skill Architecture Specification</span></td><td>20%</td></tr>
+                  <tr><td><span className="fw-label">Team Reflection</span></td><td>10%</td></tr>
+                </tbody>
+              </table>
+            </div>
           </>
         ),
         sidebar: (
@@ -626,6 +803,21 @@ function valuesModules(): StackModules {
 
             <h3>Benjamin&rsquo;s Test</h3>
             <p>Benjamin wrote his essay to be fundamentally unusable for fascist purposes. The permission architecture students design in MC8 is their own tertiary artifact. It encodes, at the governance layer, whose interests are served, whose voice is protected, and whose imagination is foreclosed.</p>
+
+            <div className="assignment-block assignment-block-values">
+              <div className="assignment-block-label">The Assignment</div>
+              <h4 className="assignment-block-title">Permission Architecture Dossier</h4>
+              <p className="assignment-block-desc">Same team as MC7. Students construct a comprehensive Permission Architecture Dossier consisting of four integrated components: a PSL Map classifying all studio assets across Products/Services/Licences layers, a Process Transparency audit documenting human/AI decision boundaries, an Innovation Calibration analysis positioning the studio within Christensen&rsquo;s innovation framework, and Benjamin&rsquo;s Test &mdash; a reflexive assessment of whether the governance architecture serves shared value or concentrates power.</p>
+              <table className="framework-table">
+                <thead><tr><th>Component</th><th>Weight</th></tr></thead>
+                <tbody>
+                  <tr><td><span className="fw-label">PSL Map</span></td><td>25%</td></tr>
+                  <tr><td><span className="fw-label">Process Transparency Audit</span></td><td>25%</td></tr>
+                  <tr><td><span className="fw-label">Innovation Calibration</span></td><td>25%</td></tr>
+                  <tr><td><span className="fw-label">Benjamin&rsquo;s Test</span></td><td>25%</td></tr>
+                </tbody>
+              </table>
+            </div>
           </>
         ),
         sidebar: (
@@ -700,6 +892,22 @@ function valuesModules(): StackModules {
               <div className="dark-card-label">Final Evaluation Question</div>
               <div className="dark-card-title">If launched, would this studio reproduce itself?</div>
               <p className="dark-card-body">Do resources regenerate &mdash; can the studio fund its next activation from this one? Do processes stabilize &mdash; can the workflow be repeated without rebuilding from scratch? Do stakeholders re-engage &mdash; would sponsors, the cause, and the venue return? Does trust compound &mdash; does the activation leave all stakeholders more committed than before?</p>
+            </div>
+
+            <div className="assignment-block assignment-block-values">
+              <div className="assignment-block-label">The Assignment</div>
+              <h4 className="assignment-block-title">Boundary Object Pitch &amp; Governance Performance</h4>
+              <p className="assignment-block-desc">The capstone performance. Teams present and defend their complete studio architecture through a shared-value boundary object: a fully designed charity fundraiser activation concept. Six pro forma financial statements demonstrate systemic coherence across all stakeholder positions. A 40-minute live defence (20 minutes presentation + 20 minutes reviewer dialogue) before external reviewers proves whether the system can withstand scrutiny from people with no investment in its success.</p>
+              <table className="framework-table">
+                <thead><tr><th>Criterion</th><th>Weight</th></tr></thead>
+                <tbody>
+                  <tr><td><span className="fw-label">Structural coherence &mdash; RPV/PSL alignment</span></td><td>25%</td></tr>
+                  <tr><td><span className="fw-label">Orchestration clarity &mdash; role differentiation, human/AI governance</span></td><td>20%</td></tr>
+                  <tr><td><span className="fw-label">Institutional and community fit &mdash; cause centrality</span></td><td>20%</td></tr>
+                  <tr><td><span className="fw-label">Licensing and transparency integrity</span></td><td>20%</td></tr>
+                  <tr><td><span className="fw-label">Resilience under critique</span></td><td>15%</td></tr>
+                </tbody>
+              </table>
             </div>
           </>
         ),

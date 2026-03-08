@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting…</title>
+    <script>
+      // GitHub Pages SPA redirect: preserves path + search + hash
+      var path = location.pathname + location.search + location.hash;
+      location.replace('/' + '?p=' + encodeURIComponent(path));
+    </script>
+  </head>
+  <body></body>
+</html>

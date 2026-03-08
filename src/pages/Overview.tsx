@@ -293,6 +293,55 @@ export function Overview() {
           The frameworks are not parallel translations of the same idea. They are interlocking
           dimensions of the same activity system, each necessary to make the others fully legible.
         </p>
+
+        <Reveal className="mt-14">
+          <div className="font-mono text-[10px] tracking-[0.2em] uppercase text-mid mb-4">
+            A Program-Wide Thread
+          </div>
+          <h3 className="font-serif text-[clamp(22px,2.5vw,32px)] font-light tracking-tight mb-4">
+            John Berger&rsquo;s <em className="italic">Ways of Seeing</em> &mdash; distributed across nine modules
+          </h3>
+          <p className="text-[15px] leading-[1.75] max-w-[760px] mb-8 text-[#2a2820]">
+            Each of Berger&rsquo;s four BBC episodes is placed at the moment in the program where its specific argument is most pedagogically alive. Students who complete all nine MCs will have encountered the complete series distributed across three stacks &mdash; each episode arriving exactly when its argument has the most to teach.
+          </p>
+          <div className="overflow-x-auto -mx-5 px-5 md:mx-0 md:px-0">
+          <table className="w-full border-collapse text-[16px] min-w-[600px]">
+            <thead>
+              <tr>
+                {["Episode", "Content", "Placed in", "Why"].map((h) => (
+                  <th key={h} className="font-mono text-[9px] tracking-[0.18em] uppercase text-mid text-left p-3 pb-3 border-b-2 border-b-ink whitespace-nowrap">{h}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="hover:[&>td]:bg-parchment">
+                <td className="p-4 border-b border-b-rule align-top"><span className="font-sans font-bold text-[12px] tracking-[0.06em] uppercase whitespace-nowrap text-processes">Episode 4</span></td>
+                <td className="p-4 border-b border-b-rule align-top">Advertising and publicity images &mdash; glamour, envy, aspiration replacing possession. The visual language of oil painting inherited by advertising.</td>
+                <td className="p-4 border-b border-b-rule align-top"><strong>MC1</strong></td>
+                <td className="p-4 border-b border-b-rule align-top">Direct theoretical ancestor of the YOU&reg; personal branding framework. Berger&rsquo;s anatomy of how advertising manufactures the self-image that persona construction then performs.</td>
+              </tr>
+              <tr className="hover:[&>td]:bg-parchment">
+                <td className="p-4 border-b border-b-rule align-top"><span className="font-sans font-bold text-[12px] tracking-[0.06em] uppercase whitespace-nowrap text-resources">Episode 1</span></td>
+                <td className="p-4 border-b border-b-rule align-top">Benjamin, mechanical reproduction, photography &mdash; how reproduction strips aura and context, and how market value fills the gap left by cult value.</td>
+                <td className="p-4 border-b border-b-rule align-top"><strong>MC2</strong></td>
+                <td className="p-4 border-b border-b-rule align-top">Grounds the pre-visualization-tools-as-tertiary-artifacts argument. The moving-image companion to the Benjamin reading that opens the ARIES framework.</td>
+              </tr>
+              <tr className="hover:[&>td]:bg-parchment">
+                <td className="p-4 border-b border-b-rule align-top"><span className="font-sans font-bold text-[12px] tracking-[0.06em] uppercase whitespace-nowrap text-values">Episode 2</span></td>
+                <td className="p-4 border-b border-b-rule align-top">Women, nudity vs. nakedness, the male gaze &mdash; representation and objectification. The surveyor/surveyed split and who controls the image.</td>
+                <td className="p-4 border-b border-b-rule align-top"><strong>MC7</strong></td>
+                <td className="p-4 border-b border-b-rule align-top">Fits the Values stack&rsquo;s engagement with gender, power, and representation as governance and ethics questions &mdash; the spectator-owner question applied to studio design.</td>
+              </tr>
+              <tr className="bg-ink text-parchment hover:bg-[#1e1c18]">
+                <td className="p-4 align-top"><span className="font-sans font-bold text-[12px] tracking-[0.06em] uppercase whitespace-nowrap text-parchment">Episode 3</span></td>
+                <td className="p-4 align-top">Oil painting as celebration of private property &mdash; possession, colonialism, painting as instrument of ownership. &ldquo;You are what you have.&rdquo;</td>
+                <td className="p-4 align-top"><strong>MC8</strong></td>
+                <td className="p-4 align-top">Fits the Values stack&rsquo;s analysis of property, rights, and who controls what gets made and who benefits &mdash; the permission architecture as inheritance of the property grammar.</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        </Reveal>
       </section>
 
       {/* PLAYLIST LOGIC */}

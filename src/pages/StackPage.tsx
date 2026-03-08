@@ -3,7 +3,7 @@ import { StackHeader } from "@/components/layout/StackHeader";
 import { ModuleNav } from "@/components/layout/ModuleNav";
 import { Reveal } from "@/components/Reveal";
 import { useSectionFade } from "@/hooks/useSectionFade";
-import { stacks, stackContinues, type StackId } from "@/data/stacks";
+import { stacks, stackContinues, stackIntros, type StackId } from "@/data/stacks";
 import { getStackModules } from "@/data/moduleContent";
 
 interface StackPageProps {
@@ -14,12 +14,42 @@ export function StackPage({ stackId }: StackPageProps) {
   const stack = stacks[stackId];
   const { modules, cascades } = getStackModules(stackId);
   const continues = stackContinues[stackId];
+  const intro = stackIntros[stackId];
   useSectionFade();
 
   return (
     <>
       <StackHeader stack={stack} />
       <ModuleNav links={modules.map((m) => ({ id: m.id, label: m.navLabel }))} />
+
+      {/* Stack Intro Section */}
+      <section className="stack-intro">
+        <div className="max-w-[1200px] mx-auto px-5 md:px-12">
+          <Reveal className="stack-intro-grid">
+            <div>
+              {intro.leftColumn.map((item, i) => (
+                <div key={i}>
+                  {item.heading && <h3>{item.heading}</h3>}
+                  <p className={item.isLead ? "lead-p" : ""}>{item.content}</p>
+                </div>
+              ))}
+            </div>
+            <div>
+              {intro.rightColumn.map((item, i) => (
+                <div key={i}>
+                  {item.heading && <h3>{item.heading}</h3>}
+                  <p className={item.isLead ? "lead-p" : ""}>
+                    {item.content.includes("not nostalgia") || item.content.includes("Before orchestration") || item.content.includes("MC9 is where")
+                      ? <strong>{item.content}</strong>
+                      : item.content
+                    }
+                  </p>
+                </div>
+              ))}
+            </div>
+          </Reveal>
+        </div>
+      </section>
 
       {modules.map((mod, i) => (
         <div key={mod.id}>
