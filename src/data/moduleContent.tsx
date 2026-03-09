@@ -592,8 +592,8 @@ function resourcesModules(): StackModules {
               <thead><tr><th>CHAT Node</th><th>5Ws+H</th><th>Economic Logic</th><th>In Museum Context</th></tr></thead>
               <tbody>
                 <tr><td><span className="fw-label">Subject</span></td><td>Who (acts)</td><td>&mdash;</td><td>Curators, technologists, educators, administrators</td></tr>
-                <tr><td><span className="fw-label">Tools</span></td><td>How</td><td>&mdash;</td><td>Digital mediation technologies, archives, pre-visualization systems</td></tr>
-                <tr><td><span className="fw-label">Object &rarr; Outcome</span></td><td>What / Why</td><td>&mdash;</td><td>Institutional transformation goal; the Installation as intervention</td></tr>
+                <tr><td><span className="fw-label">Tools</span></td><td>What / Why</td><td>&mdash;</td><td>Digital mediation technologies, archives, pre-visualization systems</td></tr>
+                <tr><td><span className="fw-label">Object &rarr; Outcome</span></td><td>How</td><td>&mdash;</td><td>Institutional transformation goal; the Installation as intervention</td></tr>
                 <tr><td><span className="fw-label">Rules / Exchange</span></td><td>Where</td><td>Market/Legal</td><td>Funding constraints, licensing, exhibition standards</td></tr>
                 <tr><td><span className="fw-label">Community of Practice</span></td><td>What (collective)</td><td>Consumerist</td><td>Museums, historians, archivists, donors, visitors</td></tr>
                 <tr><td><span className="fw-label">Division of Labour</span></td><td>Who (distributed)</td><td>Socialist</td><td>Who does what; whether effort flows toward community benefit or hierarchy</td></tr>
