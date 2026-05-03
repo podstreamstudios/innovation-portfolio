@@ -11,4 +11,5 @@ export const siteNav: NavItem[] = [
   { label: "Values", path: "/values" },
   { label: "Work Plan", path: "/workplan" },
   { label: "Outputs", path: "/outputs" },
+  { label: "PhD ↗", path: "https://phd.crooney.ca" },
 ];

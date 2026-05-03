@@ -27,19 +27,33 @@ export function SiteNav() {
         </Link>
         <div className="site-nav-links hidden md:flex items-stretch flex-1">
           {siteNav.map((item, i) => {
-            const isActive = pathname === item.path;
+            const isExternal = /^https?:\/\//.test(item.path);
+            const isActive = !isExternal && pathname === item.path;
             const active = isActive ? activeMap[item.path] || "" : "";
             const isOverview = item.path === "/";
-            const isUtility = item.path === "/workplan" || item.path === "/outputs";
+            const isUtility = item.path === "/workplan" || item.path === "/outputs" || isExternal;
             const borderClass = isUtility
               ? "border-l border-l-[#1e1c18]"
               : "border-r border-r-[#1e1c18]";
             const baseColor = isOverview && !isActive ? "text-processes" : "";
+            const className = `font-mono text-[10px] tracking-[0.14em] uppercase text-mid no-underline px-5 flex items-center transition-colors duration-200 hover:text-parchment ${borderClass} ${baseColor} ${active}`;
+            if (isExternal) {
+              return (
+                <a
+                  key={item.path}
+                  href={item.path}
+                  rel="noopener"
+                  className={className}
+                >
+                  {item.label}
+                </a>
+              );
+            }
             return (
               <Link
                 key={item.path}
                 to={item.path}
-                className={`font-mono text-[10px] tracking-[0.14em] uppercase text-mid no-underline px-5 flex items-center transition-colors duration-200 hover:text-parchment ${borderClass} ${baseColor} ${active}`}
+                className={className}
                 style={i === 0 ? {} : undefined}
               >
                 {item.label}
@@ -71,14 +85,29 @@ export function SiteNav() {
       {open && (
         <div className="md:hidden bg-ink border-t border-t-[#1e1c18] px-5 pb-4">
           {siteNav.map((item) => {
-            const isActive = pathname === item.path;
+            const isExternal = /^https?:\/\//.test(item.path);
+            const isActive = !isExternal && pathname === item.path;
             const active = isActive ? activeMap[item.path] || "" : "";
+            const className = `block font-mono text-[11px] tracking-[0.14em] uppercase text-mid no-underline py-3 border-b border-b-[#1e1c18] transition-colors duration-200 hover:text-parchment ${active}`;
+            if (isExternal) {
+              return (
+                <a
+                  key={item.path}
+                  href={item.path}
+                  rel="noopener"
+                  onClick={() => setOpen(false)}
+                  className={className}
+                >
+                  {item.label}
+                </a>
+              );
+            }
             return (
               <Link
                 key={item.path}
                 to={item.path}
                 onClick={() => setOpen(false)}
-                className={`block font-mono text-[11px] tracking-[0.14em] uppercase text-mid no-underline py-3 border-b border-b-[#1e1c18] transition-colors duration-200 hover:text-parchment ${active}`}
+                className={className}
               >
                 {item.label}
               </Link>
